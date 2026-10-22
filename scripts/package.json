@@ -1,0 +1,7 @@
+{
+  "name": "association-events-scan-scripts",
+  "private": true,
+  "dependencies": {
+    "playwright-core": "1.56.1"
+  }
+}
