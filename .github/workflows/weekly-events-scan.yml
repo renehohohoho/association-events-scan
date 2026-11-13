@@ -1,0 +1,128 @@
+---
+name: 每週協會與圖書館活動掃描
+
+# ══════════════════════════════════════════════════════════════════
+# 這個 workflow 讓 scripts/scan.py 在 GitHub 的伺服器上執行，不需要
+# 本機電腦開機、也不需要任何人手動開 Claude session。掃描四個專業
+# 協會（ASQ、OACETT、OSPE、CTTAM）與三個圖書館來源（TPL、Mississauga、
+# LPL 線上）的官方公開頁，找出未來 6 週內免費且相關的活動，寫入
+# reports/latest.md 並提交回 repo；每輪在 issue #1 留言回報。
+#
+# 根因（2026-11-13 修復）：此前沒有任何排程觸發，掃描腳本只存在於
+# 某台本機的 scripts/ 資料夾、從未進 repo；唯一一次執行是 2026-10-22
+# 的手動 Claude session，之後再也沒人開過 session，管線就停了。
+# 本 workflow 取代該手動流程（見 docs/RUNBOOK.md）。
+# ══════════════════════════════════════════════════════════════════
+
+on:
+  schedule:
+    # 每週三 UTC 13:17（= 多倫多 09:17 EDT / 08:17 EST），週四 Muse
+    # 看門狗檢查之前完成。避開整點：整點是 GitHub 排程最擁擠的時段。
+    - cron: '17 13 * * 3'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: weekly-events-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    name: 執行每週活動掃描
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: 取得程式碼
+        uses: actions/checkout@v7
+        with:
+          # 取分支當下最新的 commit，而不是觸發當時的 commit：排隊的執行才會接在前一次的報告之後。
+          ref: ${{ github.ref_name }}
+
+      - name: 安裝 Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: '3.11'
+
+      - name: 安裝依賴
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: 安裝 Playwright 瀏覽器（JS 渲染來源用）
+        run: python -m playwright install --with-deps chromium
+
+      - name: 執行單元測試
+        run: python -m unittest discover -s scripts/tests -v
+
+      - name: 執行掃描
+        run: python -m scripts.scan --with-browser
+
+      - name: 顯示本次摘要（GitHub Actions Summary）
+        if: always()
+        run: |
+          if [ -f scan-summary.json ]; then
+            echo '```json' >> "$GITHUB_STEP_SUMMARY"
+            cat scan-summary.json >> "$GITHUB_STEP_SUMMARY"
+            echo '```' >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "沒有產生掃描摘要。" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: 失敗時通知（issue #1）
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue comment 1 --repo "$GITHUB_REPOSITORY" --body "每週協會與圖書館活動掃描執行失敗（$(date -u +%Y-%m-%d) ${{ github.event_name }}，branch ${{ github.ref_name }}）。詳見 ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}。
+          — weekly-events-scan workflow（自動留言）"
+
+      - name: 提交報告與狀態回 repo
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/ state/ scan-summary.json
+          if git diff --cached --quiet; then
+            echo "報告無變更，略過提交。"
+          else
+            git commit -m "chore: weekly events scan $(date -u +%Y-%m-%d)"
+            # 執行期間若有別的 commit 進來，先 rebase 再推，避免推送被拒。
+            git pull --rebase origin "${{ github.ref_name }}"
+            git push
+          fi
+
+      - name: 在 issue #1 回報本週結果
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PYEOF'
+          import json, os
+          with open("scan-summary.json", encoding="utf-8") as f:
+              s = json.load(f)
+          repo = os.environ["GITHUB_REPOSITORY"]
+          server = os.environ.get("GITHUB_SERVER_URL", "https://github.com")
+          run_id = os.environ["GITHUB_RUN_ID"]
+          fails = s.get("failures") or []
+          new_titles = s.get("new_titles") or []
+          body = [
+              f"每週活動掃描完成（{s['scan_date']}，GitHub Actions 自動執行）。",
+              f"免費場次：協會 {s['assoc_free']} 場、圖書館 {s['library_free']} 場；本週新增 {s['new_count']} 場。",
+          ]
+          if new_titles:
+              body.append("新增：" + "；".join(new_titles))
+          if fails:
+              body.append("抓取失敗／限制（已記入報告查證限制）：")
+              body.extend(f"- {x}" for x in fails)
+          body.append(f"報告：{server}/{repo}/blob/main/reports/latest.md")
+          body.append(f"執行紀錄：{server}/{repo}/actions/runs/{run_id}")
+          body.append("— weekly-events-scan workflow（自動留言）")
+          with open("/tmp/issue-body.txt", "w", encoding="utf-8") as f:
+              f.write("\n".join(body) + "\n")
+          PYEOF
+          gh issue comment 1 --repo "$GITHUB_REPOSITORY" --body-file /tmp/issue-body.txt
+---
