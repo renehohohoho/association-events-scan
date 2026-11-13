@@ -1,0 +1,44 @@
+{
+  "scan_date": "2026-11-13",
+  "window_end": "2026-12-25",
+  "assoc_free": 8,
+  "library_free": 78,
+  "new_count": 73,
+  "new_titles": [
+    "Engineering Communication: From Expertise to Influence",
+    "PE300 – Journey to P.Eng",
+    "Ujima Network",
+    "Coding with Python II",
+    "Wellness Recovery Action Plan (WRAP)",
+    "Wellness Recovery Action Plan (WRAP) for Healthy Aging",
+    "Let's Talk Comics!",
+    "What is Artificial Intelligence?",
+    "Word Basics 3: Basic Resumes with Word",
+    "Civic Innovation Consultations",
+    "Nia Circle of Care",
+    "Python 6 - Functions",
+    "Creative Writing Club",
+    "Family Connections: Workshops for Social & Family Support",
+    "Dystopia Nonfiction Book Club: AI Snake Oil",
+    "Word Basics 3: Basic Resumes",
+    "Python Essentials 1 Learning Circle",
+    "Writers Collective of Canada (WCC): Community Writing Workshop",
+    "Entrepreneurship Mentorship Makes a Difference for All",
+    "The Connection-Oriented Leader ft. Jody Wilson-Raybould and Roshan Danesh"
+  ],
+  "failures": [
+    "asq.org/conferences 回 403（Cloudflare），本輪未覆蓋",
+    "CTTAM https://cttam.com/ 抓取失敗：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "CTTAM https://cttam.com/event 抓取失敗：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "CTTAM https://cttam.com/archives/category/news 抓取失敗：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+    "TPL 活動清單已達頁數上限（90 頁），12 月下旬場次可能未完全覆蓋",
+    "LPL 線上場：頁面已渲染但未見 Virtual／Zoom／Online 字樣，本輪無符合線上活動"
+  ],
+  "asq_stats": {
+    "listed": 94,
+    "detail_checked": 85,
+    "free": 5,
+    "paid": 9,
+    "unpriced": 32
+  }
+}

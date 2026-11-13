@@ -1,336 +1,928 @@
 # 專業協會活動報告：2026 年 11–12 月可參加場次
 
-- 掃描日期：2026-11-12（四，多倫多時間）
-- 涵蓋區間：2026-11-12（四）～ 2026-12-24（四），未來 6 週
-- 掃描模式：**Claude 管線異常，本輪由 Muse 直接掃描**。Claude 的報告（renehohohoho/association-events-scan reports/latest.md）掃描日期仍為 2026-10-22，距今 21 天、超過 8 天新鮮門檻，repo 自 2026-10-24 後亦無新 commit；已於該 repo issue #1 留言告知缺席情況。**連續第三輪異常**（10-29、11-05、11-12 皆由 Muse 直掃）。
-- 來源：協會＝Muse 本輪直掃（ASQ 行事曆瀏覽器任務、OACETT／OSPE／CTTAM 公開頁）；圖書館＝Muse 本輪直掃（TPL 活動清單瀏覽器任務、Mississauga 圖書館作者講座＋活動頁、LPL 線上場）
+- 掃描日期：2026-11-13（五，多倫多時間）
+- 涵蓋區間：2026-11-13（五）～ 2026-12-25（五），未來 6 週
+- 掃描模式：GitHub Actions 自動掃描（每週三 13:17 UTC）
+- 來源：協會＝GitHub Actions 自動掃描（ASQ 行事曆、OACETT、OSPE、CTTAM 公開頁）；圖書館＝同流程直掃（TPL 活動清單、Mississauga 圖書館作者講座＋活動頁、LPL 線上場）
 - 篩選方向：MedTech／品質管理／ISO 13485、工程技術認證（C.Tech.）、AI／R&D、工程相關（工程實務、工程職涯、工程技術主題；優先製造／製程／生醫／系統／可靠度／品質工程）、多倫多／安大略實體或線上活動
 - 費用偏好：只列免費活動（付費一律不列，僅在「備查」提及相關但付費者）
 - 使用者背景：多倫多 MedTech 產業 Disposable Device Technician；ASQ CSSGB 持證人；OACETT、OSPE、CTTAM 會員；考取 OACETT C.Tech. 中；P.Eng（PEO）路徑規劃中；職涯目標轉往 MedTech R&D 或 AI engineering
 
-## 本輪新增／變動（2026-11-12，Muse 直掃）
+## 本輪新增／變動（2026-11-13，GitHub Actions 自動掃描）
 
-- 新增免費（ASQ，詳情頁逐字核價）：「2026 Tri-Cities Quality Forum」（11/12 今日 13:00–17:00，線上免費）、「Building the Future Workforce: Leading in the Age of AI」（11/19，線上，「FREE to Attend!」）。
-- 新增免費（圖書館，詳情頁驗證）：TPL「Meet the Winner of the 2026 Giller Prize」（11/18，「Free registration required」）、「Jeff Chang: Bruce Lee and the Making of Asian America」（11/24，同）、「Sven Beckert: A Global History of Capitalism」（12/15，同）、「Turning Red Flags into Strengths: How to Answer Tough Interview Questions」（11/12 今日 17:00–18:00，線上）、「The Career Confidence & Wellness Series: Rebounding from Rejection」（11/16，線上）；Mississauga 圖書館新增創客設備入門（3D 列印／雷射切割／乙烯基印刷）、求職資源與一對一履歷協助、寫作俱樂部系列（皆免費，Drop In，實體在 Mississauga 各分館）。
-- 已結束（移出待參加清單）：ASQ「Applying Artificial Intelligence to Quality and Reliability」（11/5）、「Lifecycle-Integrated Governance of AI Systems」（11/11，Toronto Section）、「AI in Quality Investigations」（11/11）、「Introduction to Reliability Engineer / SSBB Certification」（11/10）、「HQIC Healthcare Quality Conversations」（11/9）、「SPC Harmonization: 2026 AIAG / VDA」（11/7）、MQD #5（11/11）；OACETT Technology Report Writing Crash Course 11/10 場次已不在頁面（僅剩 12/8）；TPL 上輪 11/6–11/9 場次（Ujima Network、Runnymede Book Club、Culture and Technology Book Club、From Idea to Published Book、Writers Collective of Canada）；Mississauga Comic Expo（11/6–7）。
-- 已滿額：TPL「Bone Health 101」Agincourt 11/14 場（上輪尚有 7 位，改候補；12/6 場次仍有名額）；「AI Summit 2026」實體場 11/28 已滿（直播場仍有 302 位）；另有多場 TPL AI 課程已滿，見圖書館備查。
-- 已取消：TPL「Author Talk: Orhan Pamuk」11/20（上輪已註記，仍為取消）；「STEMoirs: A Biography Book Club」11/12。
-- 待確認：OSPE「PE300 – Journey to P.Eng」11 月場次官網仍未刊登（頁面僅列 10/28 場；「每月最後週三」規律推算為 11/25，但無已刊登場次可核價，故不列為已確認活動，報名前請再確認）。
-- 免費確認不變：ASQ 11/12、11/19 三場（Rene 皆已於 10-24 報名）、11/20 QMS 場（仍註明延期中）；OSPE AMR 11/12 與 Human Risk Management 12/3（詳情頁仍刊登，會員價 $0.00 待登入購物車確認）。
-- 圖書館：TPL 上輪已列活動多數仍有名額（名額數字為 2026-11-12 上午查詢當下）；Mississauga 作者講座無新增（Susan Pimento 11/25 為退休理財主題不列，頁面明示其後暫無作者講座）；Lecture Me! 12 月場次尚未公布；LPL 線上場本輪仍無符合活動（本輪 whats-on 已可正常渲染，關鍵字搜尋 Virtual／Zoom／Webinar 皆 0 結果）。
+- 新增免費：
+  - 「Engineering Communication: From Expertise to Influence」（11/17（二），ospe，線上）
+  - 「PE300 – Journey to P.Eng」（11/25（三），ospe，線上）
+  - 「Ujima Network」（11/13（五），tpl，實體（分館待確認））
+  - 「Coding with Python II」（11/13（五），tpl，實體，Flemingdon Park）
+  - 「Wellness Recovery Action Plan (WRAP)」（11/13（五），tpl，實體（分館待確認））
+  - 「Wellness Recovery Action Plan (WRAP) for Healthy Aging」（11/13（五），tpl，實體（分館待確認））
+  - 「Let's Talk Comics!」（11/13（五），tpl，實體，Parkdale）
+  - 「What is Artificial Intelligence?」（11/13（五），tpl，實體，Scarborough Civic Centre）
+  - 「Word Basics 3: Basic Resumes with Word」（11/13（五），tpl，實體，Malvern）
+  - 「Civic Innovation Consultations」（11/13（五），tpl，實體，Albert Campbell）
+  - 「Nia Circle of Care」（11/14（六），tpl，實體（分館待確認））
+  - 「Python 6 - Functions」（11/14（六），tpl，實體，Malvern）
+  - 「Creative Writing Club」（11/14（六），tpl，實體（分館待確認））
+  - 「Family Connections: Workshops for Social & Family Support」（11/16（一），tpl，實體（分館待確認））
+  - 「Word Basics 3: Basic Resumes with Word」（11/16（一），tpl，實體，Brentwood）
+  - 「Dystopia Nonfiction Book Club: AI Snake Oil」（11/16（一），tpl，實體，Toronto Reference Library）
+  - 「Word Basics 3: Basic Resumes」（11/16（一），tpl，實體，Riverdale）
+  - 「Python Essentials 1 Learning Circle」（11/16（一），tpl，實體（分館待確認））
+  - 「Writers Collective of Canada (WCC): Community Writing Workshop」（11/16（一），tpl，實體（分館待確認））
+  - 「Entrepreneurship Mentorship Makes a Difference for All」（11/16（一），tpl，實體，Fort York）
+  - 「The Connection-Oriented Leader ft. Jody Wilson-Raybould and Roshan Danesh」（11/16（一），tpl，實體，Toronto Reference Library）
+  - 「Wellness Recovery Action Plan (WRAP) for Life Events」（11/17（二），tpl，實體（分館待確認））
+  - 「Community Writing Workshop」（11/17（二），tpl，實體（分館待確認））
+  - 「Storytelling Using Data & AI」（11/17（二），tpl，實體，Albert Campbell）
+  - 「Canadian Council of the Blind Book Club」（11/18（三），tpl，實體，Deer Park）
+  - 「Book Club - Rescheduled to Wednesday, November 18」（11/18（三），tpl，實體（分館待確認））
+  - 「Cookbook Club」（11/18（三），tpl，實體，Malvern）
+  - 「Wellness Unplugged」（11/18（三），tpl，實體，Beaches）
+  - 「Sanko Speaks」（11/18（三），tpl，實體（分館待確認））
+  - 「Resilience Reads: a climate neighbourhood reading party」（11/18（三），tpl，實體，Parkdale）
+  - 「Northern District Book Club—Evenings」（11/18（三），tpl，實體（分館待確認））
+  - 「Rachel Cusk: Life of M」（11/18（三），tpl，實體，Toronto Reference Library）
+  - 「Wellness Recovery Action Plan (WRAP) for Healthy Aging」（11/19（四），tpl，實體，Don Mills）
+  - 「Generative AI for Small Business」（11/19（四），tpl，線上）
+  - 「What is Artificial Intelligence?」（11/19（四），tpl，實體，Deer Park）
+  - 「The Art of DJ-ing」（11/19（四），tpl，實體（分館待確認））
+  - 「The Career Confidence & Wellness Series : Overcoming Imposter Syndrome」（11/19（四），tpl，線上）
+  - 「Wellness Recovery Action Plan (WRAP) - Hope + Me」（11/19（四），tpl，實體（分館待確認））
+  - 「Coding with Python I」（11/19（四），tpl，實體，Cliffcrest）
+  - 「LSP: Your New Home - Life After Canadian Permanent Residence」（11/19（四），tpl，實體，Eatonville）
+  - 「The Career Confidence & Wellness Series: Exploring Your Career Values」（11/20（五），tpl，線上）
+  - 「Coding with Python III」（11/20（五），tpl，實體，Flemingdon Park）
+  - 「Make Your Experience Make Sense」（11/20（五），tpl，線上）
+  - 「Book Club - The Library Book」（11/21（六），tpl，實體，Maryvale）
+  - 「Screenwriting for Beginners」（11/21（六），tpl，實體，Davenport）
+  - 「Surviving Dementia Care: The Realities of Family Caregiving」（11/21（六），tpl，實體，North York Central Library）
+  - 「The SciFi and Fantasy Book Club」（11/21（六），tpl，實體，Lillian H. Smith）
+  - 「Word Basics 3: Basic Resumes with Word」（11/23（一），tpl，實體，Black Creek）
+  - 「Apple Devices for Beginners」（11/23（一），tpl，實體，Northern District）
+  - 「Computers for Beginners 3: Use Windows」（11/23（一），tpl，實體，York Woods）
+  - 「Computers for Beginners 5: Use Windows」（11/23（一），tpl，實體，Agincourt）
+  - 「S. Walter Stewart Fiction Book Club」（11/23（一），tpl，實體，S. Walter Stewart）
+  - 「Seniors Wellness」（11/24（二），tpl，實體，Cedarbrae）
+  - 「Everyday Courage, Everyday Resilience: Finding your resilient flow in times of change and complexity」（11/24（二），tpl，線上）
+  - 「Health Support Table with SCHC」（11/24（二），tpl，實體（分館待確認））
+  - 「Computers for Beginners 5: Use Windows」（11/24（二），tpl，實體，Albert Campbell）
+  - 「Create an Impactful Resume with ACCES Employment」（11/24（二），tpl，實體，North York Central Library）
+  - 「Google Sheets: An Introduction」（11/24（二），tpl，實體，Toronto Reference Library）
+  - 「Book Club: Crazy Rich Asians」（11/24（二），tpl，實體，St. Clair/Silverthorn）
+  - 「Interview Preparation & Mock Interview Practice」（11/24（二），tpl，實體，Malvern）
+  - 「Introduction to Python」（11/24（二），tpl，實體，Weston）
+  - 「Your Health Matters: Breast Cancer Screening and Early Detection」（11/24（二），tpl，線上）
+  - 「Ethennonnhawahstihnen' Book Club」（11/24（二），tpl，實體，Ethennonnhawahstihnen'）
+  - 「Leaside Non-Fiction Book Club」（11/25（三），tpl，實體，Leaside）
+  - 「2SLGBTQ+ Book Club」（11/25（三），tpl，實體，Parkdale）
+  - 「Resilience Reads: a climate neighbourhood reading party」（11/26（四），tpl，實體（分館待確認））
+  - 「Coding with Python III」（11/26（四），tpl，實體，Toronto Reference Library）
+  - 「Coding with Python II」（11/26（四），tpl，實體，Cliffcrest）
+  - 「Alderwood Book Club: Clara at the Door With a Revolver」（11/26（四），tpl，實體，Alderwood）
+  - 「Gerrard/Ashdale Book Club」（11/26（四），tpl，實體（分館待確認））
+  - 「North York Central Library Book Club」（11/26（四），tpl，實體（分館待確認））
+  - 「Coding with Python IV」（11/27（五），tpl，實體，Flemingdon Park）
+  - 「Market Research for Small Business」（11/27（五），tpl，實體，Toronto Reference Library）
+- 已結束（移出待參加清單）：
+  - 2026 Tri-Cities Quality Forum（11/12（四）13:00–17:00 美東）
+  - Metrics That Matter: Connecting Strategy, Action and Results（11/12（四）18:00–20:00 山地時間（20:00–22:00 美東））
+  - Antimicrobial Resistance (AMR), the New Challenge（11/12（四）12:00–13:00（活動頁未註明時區，OSPE 為安大略機構，推定美東））
+  - What is Artificial Intelligence?（11/26（四）13:00–14:30）
+  - AI Summit 2026 (Livestream)（11/28（六）9:45–16:30）
+  - Five Pieces of the AI Puzzle（12/7（一）15:00–16:00）
+  - Surviving Dementia Care: The Realities of Family Caregiving（12/1（二）18:30–20:00）
+  - Bone Health 101（12/6（日）13:30–14:30）
+  - Meet the Winner of the 2026 Giller Prize（11/18（三）18:00–19:00（標頭時間；簡介另寫「Doors open at 6:00pm. Event starts at 7:00pm.」，兩者不一致，以頁面原文為準））
+  - Art of Darkness: Edgar Allan Poe's Life & Work（12/4（五）19:00–20:00）
+  - Sven Beckert: A Global History of Capitalism（12/15（二）19:00–20:30）
+  - Turning Red Flags into Strengths: How to Answer Tough Interview Questions（11/12（四）17:00–18:00）
+  - Job Search 101: Finding Opportunities That Fit You（12/1（二）12:00–13:00）
+  - Resume Development and Modern Job Search Techniques（12/4（五）13:00–14:30）
+  - From Interview Jitters to Interview Confidence: Navigating In-Person, Virtual and AI-Powered Interviews（12/14（一）18:30–19:30）
+  - Shannon Kyles: What Our Buildings Say About Us（12/17（四）18:30–20:00）
+- 已滿額：
+  - 「Coding with Python」（11/13，僅可候補）
+  - 「Wellness Connections: Workshops for Mental Health & Emotional Wellness Part 1」（11/13，僅可候補）
+  - 「Introduction to Machine Embroidery」（11/14，僅可候補）
+  - 「The Art and Craft of Writing Murder Mysteries with Will Ferguson」（11/14，僅可候補）
+  - 「**FULL** Book Club」（11/16，僅可候補）
+  - 「Coding with Python I」（11/16，僅可候補）
+  - 「Astronomy and the Cosmos: Galaxy Formation」（11/16，僅可候補）
+  - 「Google AI Essentials: In Person Learning Circle」（11/17，僅可候補）
+  - 「Data Analytics Essentials Learning Circle」（11/17，僅可候補）
+  - 「Python Essentials 1 and 2 Learning Circle」（11/17，僅可候補）
+  - 「Excel Basics 2: Do More with your Data」（11/17，僅可候補）
+  - 「AI for Job Hunting: Build Your Own System」（11/17，僅可候補）
+  - 「Google AI Essentials: In Person Learning Circle」（11/17，僅可候補）
+  - 「Bridging Minds: Supporting Mental Health in the Early Years (0–5) — Small Actions, Big Impact」（11/18，僅可候補）
+  - 「Google AI Essentials: Online Learning Circle」（11/19，僅可候補）
+  - 「Enigmatic Elders Mystery Book Club」（11/19，僅可候補）
+  - 「Learning Things You Love with AI」（11/19，僅可候補）
+  - 「Coding with Python II」（11/19，僅可候補）
+  - 「Data Analytics Essentials Online Learning Circle」（11/19，僅可候補）
+  - 「Wellness Connections: Workshops for Mental Health & Emotional Wellness Part 1」（11/20，僅可候補）
+  - 「Computers for Beginners 5: Use Windows」（11/21，僅可候補）
+  - 「Who Should Own AI? Building Public AI」（11/21，僅可候補）
+  - 「Get Things Done with AI: Build Your Own Productivity System」（11/23，僅可候補）
+  - 「Creative Writing Workshop Group」（11/23，僅可候補）
+  - 「Google AI Essentials: In Person Learning Circle」（11/24，僅可候補）
+  - 「Data Analytics Essentials Learning Circle」（11/24，僅可候補）
+  - 「Python Essentials 1 and 2 Learning Circle」（11/24，僅可候補）
+  - 「Introduction to Machine Embroidery」（11/24，僅可候補）
+  - 「Google AI Essentials: In Person Learning Circle」（11/24，僅可候補）
+  - 「Vibe Coding: Make Your Own Interactive Story with AI」（11/25，僅可候補）
+  - 「Creative Writing」（11/26，僅可候補）
+  - 「Google AI Essentials: Online Learning Circle」（11/26，僅可候補）
+  - 「The Occult Persuasion and the Anarchist's Solution: From Idea to Publication (Writing Workshop)」（11/26，僅可候補）
+  - 「Prompting with Generative AI」（11/26，僅可候補）
+  - 「Data Analytics Essentials Online Learning Circle」（11/26，僅可候補）
+  - 「Writers Collective of Canada (WCC): Community Writing Workshop」（11/26，僅可候補）
+  - 「Vibe Coding: Personal Library App」（11/26，僅可候補）
+  - 「Wellness Connections: Workshops for Mental Health & Emotional Wellness Part 2」（11/27，僅可候補）
+- 待確認：
+  - Better Systems, Better Results: What is a Quality Management：主辦單位註明延期中，待更新後再辦
+- 本輪確認免費場次：ASQ 5 場、OSPE 3 場、OACETT 0 場；圖書館 TPL 78 場、Mississauga 0 場、LPL 0 場。
 
-## 只看免費：7 場 ASQ ＋ 2 場 OSPE 排定活動 ＋ 1 項補充資源
+## 只看免費：5 場 ASQ ＋ 3 場 OSPE ＋ 0 場 OACETT ＋ 0 場 CTTAM ＋ 1 項補充資源
 
 ### ASQ
 
-#### 1. 「2026 Tri-Cities Quality Forum」（新增，今日）
-
-- 時間：11/12（四）13:00–17:00 美東
-- 費用：免費（詳情頁逐字：「The 2026 Tri-Cities Quality Forum is a free, live, web-based conference」）
-- 地點：線上（Birmingham Section 等多個分會共同主辦）
-- 一句話說明：四場品質論壇，含 AI 流程建置、品質領導力、ISO 9001:2026 與製造品質。
-- 連結：https://my.asq.org/events/event-description?CalendarEventKey=98fac572-b9fd-477f-a837-01a1c14b4325&CommunityKey=12917bd7-fd4f-4e4b-a8f6-01865c33198c&Home=%2fevents%2fcalendar
-- 為什麼相關：高。AI＋品質＋ISO 9001:2026 三主題一次命中，貼近 CSSGB 背景與轉職方向。
-
-#### 2. 「Metrics That Matter: Connecting Strategy, Action and Results」（沿用，今晚）
-
-- 時間：11/12（四）18:00–20:00 山地時間（20:00–22:00 美東）
-- 費用：免費（詳情頁逐字：「COST: Free. Open to all.」）
-- 地點：線上 Zoom（Phoenix Section 主辦）
-- 一句話說明：Six Sigma MBB 講領先／落後指標與指標稽核。
-- 連結：https://my.asq.org/events/event-description?CalendarEventKey=cc1f6d77-aa6b-4a08-a3dd-01a157517690&CommunityKey=481ed03e-e397-4e58-9f35-01863ca1e7c0&Home=%2fevents%2fcalendar
-- 為什麼相關：品質管理與營運指標，呼應 CSSGB 背景。
-- 報名注意：Rene 已於 10-24 報名完成（見「已報名」）。
-
-#### 3. 「Build the Same Report for Every Audience: A Trustworthy AI Briefing Workflow」（沿用）
-
-- 時間：11/19（四）17:45–19:15 山地時間（19:45–21:15 美東）
-- 費用：免費（詳情頁逐字：「Cost: Free and open to all」）
-- 地點：線上 Webex（Boulder Section 主辦）
-- 一句話說明：用 AI agent 把同一份品質資料改寫成給不同對象的簡報。
-- 連結：https://my.asq.org/events/event-description?CalendarEventKey=a739aa1b-8cc6-499b-bc02-019f5d29e34f&CommunityKey=f1d26709-601f-4e21-873f-018670cc8948&Home=%2fevents%2fcalendar
-- 為什麼相關：AI 工作流程，直接對應轉往 AI engineering 的方向。
-- 報名注意：Rene 已於 10-24 報名完成（見「已報名」）。
-
-#### 4. 「Building the Future Workforce: Leading in the Age of AI」（新增）
+#### 1. 「Building the Future Workforce: Leading in the Age of AI」
 
 - 時間：11/19（四）18:00–19:30 美東
-- 費用：免費（詳情頁逐字：「FREE to Attend!」）
-- 地點：線上（Greater Detroit Section 主辦）
-- 一句話說明：AI 與自動化如何改變職場技能、領導力與再培訓。
+- 費用：免費（詳情頁逐字：「Virtual Meeting Info Credits : 0.15 RUs FREE to Attend! You must register in advance Meeting flyer Register here Q」）
+- 地點：線上
+- 一句話說明：Building the Future Workforce: Leading in the Age of AI - American Society for Quality Skip main navigation (Press…
 - 連結：https://my.asq.org/events/event-description?CalendarEventKey=577389c2-87ff-46df-9e34-01a1c77146d9&CommunityKey=5ae6876a-6048-43c3-ac26-01865c2e732f&Home=%2fevents%2fcalendar
-- 為什麼相關：中。AI 時代的職場與領導力；與第 3 場同晚 11/19，時間重疊（18:00–19:30 vs 19:45–21:15，僅 15 分鐘間隔），連著參加可行但緊湊。
+- 為什麼相關：主題相關；相關性medium。
 
-#### 5. 「Powering Up Your Career: The Leadership Skill Quality Professionals Can't Skip」（沿用）
+#### 2. 「Powering Up Your Career: The Leadership Skill Quality Professionals Can’t Skip」
 
 - 時間：11/19（四）18:00–20:00 美東
-- 費用：免費（詳情頁逐字：「Click on the link to register. There is no charge.」）
-- 地點：線上（Greater Atlanta Section 主辦）
-- 一句話說明：品質人的溝通與影響力領導力互動場。
+- 費用：免費（詳情頁逐字：「Click on the link to register. There is no charge. Download to Your Calendar Outlook Google Contact Ruffin Bo」）
+- 地點：線上
+- 一句話說明：Powering Up Your Career: The Leadership Skill Quality Professionals Can’t Skip - American Society for Quality Skip main…
 - 連結：https://my.asq.org/events/event-description?CalendarEventKey=eae0bd23-bdc8-4767-ad10-01a184461215&CommunityKey=aee27816-59a9-486d-be50-01865c2e2077&Home=%2fevents%2fcalendar
-- 為什麼相關：中。領導力與溝通是從技術走向工程職涯的關鍵能力；與第 3 場同晚 11/19，時間重疊（18:00–20:00 vs 19:45–21:15），只能擇一；與第 4 場亦同晚同時間，11/19 晚間三場撞期，擇一參加。
+- 為什麼相關：主題相關；相關性medium。
 
-#### 6. 「Better Systems, Better Results: What is a Quality Management System & What it Means for You」（沿用，主辦單位延期中）
+#### 3. 「Build the Same Report for Every Audience」
 
-- 時間：原 11/20（五）17:30–19:00 中部時間（18:30–20:00 美東）
-- 費用：免費（詳情頁逐字：「There is no charge for this session, event is free to attend.」）
-- 地點：線上（Oklahoma City Section 主辦；混合形式，線上 Webex 參加）
-- 一句話說明：什麼是品質管理系統、對你意味著什麼，入門級介紹。
+- 時間：11/19（四）19:45–21:15 美東
+- 費用：免費（詳情頁逐字：「nce: A Trustworthy AI Briefing Workflow Cost: Free and open to all Note: Thursday 5:45 pm to 7:15 pm US-MT mee」）
+- 地點：線上
+- 一句話說明：Build the Same Report for Every Audience: A Trustworthy AI Briefing Workflow Cost: Free and open to all Note: Thursday 5
+- 連結：https://my.asq.org/events/event-description?CalendarEventKey=a739aa1b-8cc6-499b-bc02-019f5d29e34f&CommunityKey=f1d26709-601f-4e21-873f-018670cc8948&Home=%2fevents%2fcalendar
+- 為什麼相關：主題相關；相關性medium。
+
+#### 4. 「Better Systems, Better Results: What is a Quality Management System & What it Means for You」
+
+- 時間：11/20（五）18:30–20:00 美東
+- 費用：免費（詳情頁逐字：「is no charge for this session, event is free to attend. Sales & marketing prohibited, for educational & profession」）
+- 地點：線上
+- 一句話說明：Better Systems, Better Results: What is a Quality Management System & What it Means for You - American Society for…
 - 連結：https://my.asq.org/events/event-description?CalendarEventKey=138c6712-7366-4b80-b415-01a0b0961333&CommunityKey=28f5f3d8-9522-4fe2-b871-01867250edd1&Home=%2fevents%2fcalendar
-- 為什麼相關：QMS 基礎，呼應 CSSGB 與 ISO 13485 背景；入門級，適合快速複習框架。
-- 備註：主辦單位註明暫時延期、將盡快更新，MemberPlanet 目前無票券按鈕，10-24 未能報名，待主辦單位更新後再辦。
+- 為什麼相關：高相關；相關性high。
+- 備註：主辦單位註明暫時延期、將盡快更新，待更新後再辦
 
-#### 7. 「Does Santa Comply with ISO 9001?」（沿用）
+#### 5. 「Does Santa Comply with ISO 9001?」
 
-- 時間：12/3（四）18:00–19:30 太平洋時間（21:00–22:30 美東）
-- 費用：免費（詳情頁逐字：「This is a virtual meeting. There is no charge, but advance registration is required by December 1.」）
-- 地點：線上 Webex（Spokane Section 主辦）
-- 一句話說明：以聖誕老人營運為例輕鬆談 ISO 9001 條文。
+- 時間：12/3（四）21:00–22:30 美東
+- 費用：免費（詳情頁逐字：「lls This is a virtual meeting. There is no charge, but advance registration is required by December 1. ‘ Tis」）
+- 地點：線上
+- 一句話說明：Does Santa Comply with ISO 9001?
 - 連結：https://my.asq.org/events/event-description?CalendarEventKey=6856e7af-ae46-4a2d-9e4d-01a1a3865c82&CommunityKey=0456ea17-b577-4b72-9bd3-018670c97b45&Home=%2fevents%2fcalendar
-- 為什麼相關：中低。ISO 9001 趣味入門，輕鬆複習條文框架。
-- 報名注意：須於 12/1 前事先報名。
+- 為什麼相關：高相關；相關性high。
 
-### OSPE（沿用）
+### OSPE
 
-#### 8. 「Antimicrobial Resistance (AMR), the New Challenge」（沿用，今日）
+#### 1. 「Engineering Communication: From Expertise to Influence」
 
-- 時間：11/12（四）12:00–13:00（活動頁未註明時區，OSPE 為安大略機構，推定美東）
-- 費用：會員免費（頁面註明「Please log in to see Member pricing; price will automatically update in your cart」；非會員 $59.00–$165.00）。會員價需登入才能在購物車確認，報名前請先登入驗證為 $0。
-- 地點：線上（Virtual，Thought Leadership Thursdays 系列，1 CPD 小時）
-- 一句話說明：抗微生物抗藥性新挑戰，醫材／醫療工程相關主題。
-- 連結：https://members.ospe.on.ca/event/antimicrobial-resistance-amr-the-new-challenge/
-- 為什麼相關：AMR 是醫材感染控制相關議題，貼近 MedTech 背景；可抵 1 小時 CPD。
-- 分類備註：Claude 2026-10-22 報告將其列為間接相關備查；維持上一輪判斷不變。
+- 時間：11/17（二）12:00–13:30 美東
+- 費用：會員免費待登入確認（詳情頁逐字：「Please log in to see Member pricing」）
+- 地點：線上
+- 一句話說明：Engineering Communications Sprint Series: Be Clear.
+- 連結：https://members.ospe.on.ca/event/engineering-communication-from-expertise-to-influence/
+- 為什麼相關：OSPE 活動；相關性medium。
+- 備註：會員價需登入購物車確認是否為 $0
 
-#### 9. 「Human Risk Management for Engineers: Stopping AI-Enabled Phishing and Social Engineering」（沿用）
+#### 2. 「PE300 – Journey to P.Eng」
 
-- 時間：12/3（四）12:00–13:00（活動頁未註明時區，推定美東；區間最後一週）
-- 費用：會員免費（同上，頁面註明登入後購物車自動更新會員價；非會員 $59.00–$165.00）。會員價需登入確認。
-- 地點：線上（Virtual，Thought Leadership Thursdays 系列，1 CPD 小時）
-- 一句話說明：AI 驅動的釣魚與社交工程攻擊，工程師的人因風險管理。
+- 時間：11/25（三）12:00–13:00 美東
+- 費用：免費（詳情頁逐字：「Cost: Free to everyone Format: Online Webinar Details Date: November 2」）
+- 地點：線上
+- 一句話說明：Are you pursuing licensure as a Professional Engineer (P.Eng.) in Ontario?
+- 連結：https://members.ospe.on.ca/event/pe300-journey-to-p-eng-14/
+- 為什麼相關：OSPE 活動；相關性medium。
+
+#### 3. 「Human Risk Management for Engineers: Stopping AI-Enabled Phishing and Social Engineering」
+
+- 時間：12/3（四）12:00–13:00 美東
+- 費用：會員免費待登入確認（詳情頁逐字：「Member Price: $0.00 (Please log in to see Member pricing. Price will automatically update in your c」）
+- 地點：線上
+- 一句話說明：Engineers hold IP, project data, and control-system access that attackers now target with AI-generated lures.
 - 連結：https://members.ospe.on.ca/event/human-risk-management-for-engineers-stopping-ai-enabled-phishing-and-social-engineering/
-- 為什麼相關：AI 主題，直接對應轉往 AI engineering 的長期目標；可抵 1 小時 CPD。
+- 為什麼相關：OSPE 活動；相關性high。
+- 備註：會員價需登入購物車確認是否為 $0
 
-## 圖書館活動（Muse 本輪直掃，2026-11-12）
+## 圖書館活動（GitHub Actions 本輪直掃）
 
-TPL、Mississauga、LPL 三來源皆已掃描。TPL 活動皆免費（圖書館活動原則；詳情頁多未顯示費用，其中 Eventbrite 形式者明文標示免費）。名額數字為 2026-11-12 上午查詢當下，隨時可能變動。Mississauga 活動頁明示「We offer free in-person and virtual programs」，以下場次皆為 Drop In、現場先到先得。
+TPL、Mississauga、LPL 三來源皆已掃描。TPL 活動皆免費（圖書館活動原則；詳情頁多未顯示費用，其中明文標示免費者附逐字證據）。名額數字為查詢當下，隨時可能變動。
 
 ### TPL
 
 #### AI／科技
 
-##### 1. 「Intro To AI and Robotics with MBOT」（沿用）
+##### 1. 「Coding with Python II」
+
+- 時間：11/13（五）12:30–14:30
+- 費用：免費（Free registration required）
+- 地點：實體，Flemingdon Park
+- 一句話說明：Python is an open source programming language that is used for creating web applications, web content, mathematics and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae135eede300e00451d453c
+
+##### 2. 「What is Artificial Intelligence?」
+
+- 時間：11/13（五）18:00–19:00
+- 費用：免費（Free registration required）
+- 地點：實體，Scarborough Civic Centre
+- 一句話說明：AI technologies have become increasingly prevalent in many aspects of modern life, including healthcare, finance,…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae2598cfee2d21deb267a59
+
+##### 3. 「Python 6 - Functions」
+
+- 時間：11/14（六）13:30–14:30
+- 費用：免費（Free registration required）
+- 地點：實體，Malvern
+- 一句話說明：Continue to learn Python.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab5239f08693b0f737442d6
+
+##### 4. 「Dystopia Nonfiction Book Club: AI Snake Oil」
+
+- 時間：11/16（一）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Toronto Reference Library
+- 一句話說明：Join us each month to discuss issues in politics and society, and explore how powerful forces are exploiting our world…
+- 連結：https://tpl.bibliocommons.com/v2/events/6a5f7b76e9de6536001d3704
+
+##### 5. 「Python Essentials 1 Learning Circle」
+
+- 時間：11/16（一）16:00–18:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：Learn Python and build your programming skills in a supportive group.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab182a5129d8e0031f40d43
+- 備註：每週重複系列，本輪僅列首場
+
+##### 6. 「Modern Careers: Unlocking New AI Career Paths」
+
+- 時間：11/17（二）14:00–15:00
+- 費用：免費（Free registration required）
+- 地點：線上
+- 一句話說明：Join one of TPL's Career Coaches in Residence, Sangeetha Dikshit and guest speaker Bhumika Arora for this interactive…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ada329a198b996a80a897bb
+
+##### 7. 「Storytelling Using Data & AI」
+
+- 時間：11/17（二）19:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Albert Campbell
+- 一句話說明：Your neighbourhood tells a story and the data to prove it already exists.
+- 連結：https://tpl.bibliocommons.com/v2/events/6abc216511bbf300684a75fc
+
+##### 8. 「Generative AI for Small Business」
+
+- 時間：11/19（四）13:00–14:00
+- 費用：免費（Free registration required）
+- 地點：線上
+- 一句話說明：Join us online with Digital Main Street.
+- 連結：https://tpl.bibliocommons.com/v2/events/6abbce44035faf0033d90e2f
+
+##### 9. 「What is Artificial Intelligence?」
+
+- 時間：11/19（四）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Deer Park
+- 一句話說明：Learn about Artificial Intelligence, what it is and how it interacts in our day-to-day activities.
+- 連結：https://tpl.bibliocommons.com/v2/events/6adcbf0929c3d60033321ec2
+
+##### 10. 「Coding with Python I」
+
+- 時間：11/19（四）18:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Cliffcrest
+- 一句話說明：Python is an open source programming language that is used for creating web applications, web content, mathematics and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac55dd9a85a2c00337da2de
+
+##### 11. 「Intro To AI and Robotics with MBOT」
 
 - 時間：11/19（四）18:00–19:30
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 8 位名額）
-- 地點：實體，Richview 分館
-- 一句話說明：動手操作 mBot 機器人，學 AI 與機器人基礎。
+- 費用：免費（Free registration required）
+- 地點：實體，Richview
+- 一句話說明：This class introduces participants to a new tool - artificial intelligence using the MBOT 2.
 - 連結：https://tpl.bibliocommons.com/v2/events/6ada9b3c377296003a4df09a
 
-##### 2. 「What is Artificial Intelligence?」（沿用）
+##### 12. 「Coding with Python III」
 
-- 時間：11/26（四）13:00–14:30
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 23 位名額；報名 11/12 上午 9 時開放）
-- 地點：實體，Woodside Square 分館
-- 一句話說明：AI 新手入門講座，適合零基礎者。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ac91833ebad22004544365a
+- 時間：11/20（五）12:30–14:30
+- 費用：免費（Free registration required）
+- 地點：實體，Flemingdon Park
+- 一句話說明：Python is an open source programming language that is used for creating web applications, web content, mathematics and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae1372bde300e00451d4555
 
-##### 3. 「AI Summit 2026 (Livestream)」（沿用）
+##### 13. 「Interview Preparation & Mock Interview Practice」
 
-- 時間：11/28（六）9:45–16:30
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 302 位名額）
-- 地點：線上直播
-- 一句話說明：TPL 年度 AI 峰會全日直播，探討 AI 對生活與工作的影響。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ad0cabba76c9f3e2ae83cd3
-- 備註：同日實體場（Toronto Reference Library）已滿額，僅可候補。
+- 時間：11/24（二）18:00–19:30
+- 費用：免費（Free registration required）
+- 地點：實體，Malvern
+- 一句話說明：This session will help participants build confidence and prepare for every stage of the interview process.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac50917de300e00451891ae
 
-##### 4. 「Five Pieces of the AI Puzzle」（沿用，12 月場次）
+##### 14. 「Introduction to Python」
 
-- 時間：12/7（一）15:00–16:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 8 位名額）
-- 地點：實體，Hillcrest 分館
-- 一句話說明：與 11/7 同系列的 AI 新手課，12 月場次。
-- 連結：https://tpl.bibliocommons.com/v2/events/6a84bfc62f41840bbfc2f3ca
+- 時間：11/24（二）18:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Weston
+- 一句話說明：In this online course you will learn how Python code works and given time to practice.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac90653035faf0033db7349
+
+##### 15. 「Coding with Python III」
+
+- 時間：11/26（四）17:30–19:30
+- 費用：免費（Free registration required）
+- 地點：實體，Toronto Reference Library
+- 一句話說明：Python is an open source programming language that is used for creating web applications, web content, mathematics and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac3fe9a9dbc2b002c8c83bb
+
+##### 16. 「Coding with Python II」
+
+- 時間：11/26（四）18:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Cliffcrest
+- 一句話說明：Python is an open source programming language that is used for creating web applications, web content, mathematics and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac55e37377296003a4a28ac
+
+##### 17. 「Coding with Python IV」
+
+- 時間：11/27（五）12:30–14:30
+- 費用：免費（Free registration required）
+- 地點：實體，Flemingdon Park
+- 一句話說明：Python is an open source programming language that is used for creating web applications, web content, mathematics and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae137b6fee2d21deb263397
 
 #### 健康
 
-##### 5. 「Bone Health 101」（沿用，11/14 場已滿額）
+##### 18. 「Ujima Network」
+
+- 時間：11/13（五）10:00–13:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：A free group program that explores mental wellness through a culturally responsive lens grounded in the Black Model of…
+- 連結：https://tpl.bibliocommons.com/v2/events/6aa1a88ef9ed2e00384f513e
+- 備註：每週重複系列，本輪僅列首場
+
+##### 19. 「Wellness Recovery Action Plan (WRAP)」
+
+- 時間：11/13（五）13:00–16:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：WRAP is for anyone looking to strengthen their well-being—whether you’re supporting your mental health, managing…
+- 連結：https://tpl.bibliocommons.com/v2/events/6a0622accaf93436005beec8
+- 備註：每週重複系列，本輪僅列首場
+
+##### 20. 「Wellness Recovery Action Plan (WRAP) for Healthy Aging」
+
+- 時間：11/13（五）13:00–16:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：WRAP is for anyone looking to strengthen their well-being—whether you’re supporting your mental health, managing…
+- 連結：https://tpl.bibliocommons.com/v2/events/6abc1b8fe8cf1c005cafeaac
+- 備註：每週重複系列，本輪僅列首場
+
+##### 21. 「Nia Circle of Care」
+
+- 時間：11/14（六）12:00–15:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：A free group program that supports mental wellness through guided discussion, peer connection, and culturally…
+- 連結：https://tpl.bibliocommons.com/v2/events/6abbfb40901b02002cbec7c2
+- 備註：每週重複系列，本輪僅列首場
+
+##### 22. 「Bone Health 101」
 
 - 時間：11/14（六）14:00–15:00
-- 費用：免費（詳情頁未顯示費用；已滿額，僅可加入候補名單）
-- 地點：實體，Agincourt 分館
-- 一句話說明：骨質疏鬆症講座，講骨骼健康、營養與運動。
+- 費用：免費（Free registration required）
+- 地點：實體，Agincourt
+- 一句話說明：At least 1 in 3 women and 1 in 5 men will suffer from a fragility fracture in their lifetime.
 - 連結：https://tpl.bibliocommons.com/v2/events/6ad76edbfee2d21deb2483fb
 
-##### 6. 「Author Talk: "From Insulin to Islet Transplants: Canada's ongoing contribution to diabetes research" with Krista Lamb」（沿用）
+##### 23. 「Family Connections: Workshops for Social & Family Support」
+
+- 時間：11/16（一）10:30–12:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：Join us for a series of group workshops for anyone navigating relationships, caregiving responsibilities or family…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab6a0b6a5dbde002aa72633
+- 備註：每週重複系列，本輪僅列首場
+
+##### 24. 「The Career Confidence & Wellness Series: Rebounding from Rejection」
+
+- 時間：11/16（一）17:00–18:00
+- 費用：免費（Free registration required）
+- 地點：線上
+- 一句話說明：Has a job rejection, unanswered application, or difficult interview affected your confidence?
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab6cb6686d845003118c20c
+
+##### 25. 「Author Talk: "From Insulin to Islet Transplants: Canada's ongoing contribution to diabetes research" with Krista Lamb」
 
 - 時間：11/16（一）18:00–19:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 11 位名額）
-- 地點：實體，Davenport 分館
-- 一句話說明：從班廷發現胰島素講起的加拿大糖尿病研究史。
+- 費用：免費（Free registration required）
+- 地點：實體，Davenport
+- 一句話說明：Since Banting’s discovery of insulin at U of T in 1921, Canadian scientists have remained on the front lines of the…
 - 連結：https://tpl.bibliocommons.com/v2/events/6a8f1249b20478002995ad01
 
-##### 7. 「Surviving Dementia Care: The Realities of Family Caregiving」（沿用）
+##### 26. 「Wellness Recovery Action Plan (WRAP) for Life Events」
 
-- 時間：12/1（二）18:30–20:00
-- 費用：免費（詳情頁未顯示費用；不需報名，直接入場）
-- 地點：實體，Guildwood 分館
-- 一句話說明：失智症家庭照顧者講座，談照顧現實與自我照顧。
-- 連結：https://tpl.bibliocommons.com/v2/events/6a85e0cc4c610f0038955592
-- 備註：另有同一標題的另一場次 11/21（六）14:00–15:00，North York Central Library，需報名（查詢時尚有 119 位名額），僅清單層級確認、未開詳情頁。
+- 時間：11/17（二）13:00–15:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：WRAP is for anyone looking to strengthen their well-being—whether you’re supporting your mental health, managing…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ada9e609dbc2b002c906eb4
 
-##### 8. 「Bone Health 101」（沿用，12 月場次）
+##### 27. 「Wellness Unplugged」
 
-- 時間：12/6（日）13:30–14:30
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 29 位名額，現場亦歡迎直接入場）
+- 時間：11/18（三）16:00–16:45
+- 費用：免費（Free registration required）
+- 地點：實體，Beaches
+- 一句話說明：Ever wonder why stretching feels so good, or why one deep breath can change your whole mood?
+- 連結：https://tpl.bibliocommons.com/v2/events/6acec3ccebad220045452f08
+
+##### 28. 「Sanko Speaks」
+
+- 時間：11/18（三）17:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：A free, culturally affirming drop-in program for adults that promotes mental wellness through creative activities,…
+- 連結：https://tpl.bibliocommons.com/v2/events/6a987af8e1fb8f13578ba606
+- 備註：每週重複系列，本輪僅列首場
+
+##### 29. 「Wellness Recovery Action Plan (WRAP) for Healthy Aging」
+
+- 時間：11/19（四）10:00–12:30
+- 費用：免費（Free registration required）
+- 地點：實體，Don Mills
+- 一句話說明：WRAP is for anyone looking to strengthen their well-being—whether you’re supporting your mental health, managing…
+- 連結：https://tpl.bibliocommons.com/v2/events/6aec9547ad40276591564539
+
+##### 30. 「The Career Confidence & Wellness Series : Overcoming Imposter Syndrome」
+
+- 時間：11/19（四）17:00–18:00
+- 費用：免費（Free registration required）
+- 地點：線上
+- 一句話說明：Have you ever looked at a job posting and thought, “I could never do that”?
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab6cbfd6074830038298794
+
+##### 31. 「Wellness Recovery Action Plan (WRAP) - Hope + Me」
+
+- 時間：11/19（四）17:30–20:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：WRAP is for anyone looking to strengthen their well-being—whether you’re supporting your mental health, managing…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab418b1607483003829095a
+- 備註：每週重複系列，本輪僅列首場
+
+##### 32. 「The Career Confidence & Wellness Series: Exploring Your Career Values」
+
+- 時間：11/20（五）12:00–13:00
+- 費用：免費（Free registration required）
+- 地點：線上
+- 一句話說明：Curious about how your personal and career values can shape your motivation, sense of purpose, and satisfaction at work?
+- 連結：https://tpl.bibliocommons.com/v2/events/6af1dd258389bd86bfa5015e
+
+##### 33. 「Surviving Dementia Care: The Realities of Family Caregiving」
+
+- 時間：11/21（六）14:00–15:00
+- 費用：免費（Free registration required）
 - 地點：實體，North York Central Library
-- 一句話說明：骨質疏鬆症講座的 12 月場次。
-- 連結：https://tpl.bibliocommons.com/v2/events/6aea7558de685359098dc483
+- 一句話說明：This program will address the experiences of families who are caring for a loved one who is living with dementia,…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ad2b8d9fee2d21deb23cdf0
+
+##### 34. 「Seniors Wellness」
+
+- 時間：11/24（二）10:30–11:30
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Cedarbrae
+- 一句話說明：Join us for coffee, tea, snacks and wellness tips as we engage in various activities, games and crafts.
+- 連結：https://tpl.bibliocommons.com/v2/events/69dff8dd129f12743838c50e
+
+##### 35. 「Health Support Table with SCHC」
+
+- 時間：11/24（二）13:00–16:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體（分館待確認）
+- 一句話說明：Come have a conversation with the health team from the Scarborough Centre for Healthy Communities (SCHC)!
+- 連結：https://tpl.bibliocommons.com/v2/events/6a885360be1482002988fb05
+
+##### 36. 「Your Health Matters: Breast Cancer Screening and Early Detection」
+
+- 時間：11/24（二）18:00–19:00
+- 費用：免費（Free registration required）
+- 地點：線上
+- 一句話說明：Breast cancer is one of the most common cancers affecting women, but early detection can significantly improve outcomes.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ad250ff035faf0033dd15e3
 
 #### 文學／寫作／閱讀
 
-##### 9. 「Creative Writing Club: Write Better Faster with Maaja Wentz」（沿用）
+##### 37. 「Let's Talk Comics!」
+
+- 時間：11/13（五）18:00–19:30
+- 費用：免費（Free registration required）
+- 地點：實體，Parkdale
+- 一句話說明：Whether you're an avid reader or a total beginner, come join us for a monthly discussion circle surrounding either a…
+- 連結：https://tpl.bibliocommons.com/v2/events/6a529054f4e5db3d00c10f41
+
+##### 38. 「Civic Innovation Consultations」
+
+- 時間：11/13（五）19:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Albert Campbell
+- 一句話說明：Civic Innovation Consultation sessions are recurring opportunities throughout the residency where community members can…
+- 連結：https://tpl.bibliocommons.com/v2/events/6af379e192dc1500457b5cce
+
+##### 39. 「Creative Writing Club」
+
+- 時間：11/14（六）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：Open to adult writers of all experience levels.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a5bce947b79214226a97f51
+
+##### 40. 「Writers Collective of Canada (WCC): Community Writing Workshop」
+
+- 時間：11/16（一）18:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：Experience the transformative power of writing in an inclusive space!
+- 連結：https://tpl.bibliocommons.com/v2/events/6abfc99029c3d600332d2c3a
+- 備註：每週重複系列，本輪僅列首場
+
+##### 41. 「The Connection-Oriented Leader ft. Jody Wilson-Raybould and Roshan Danesh」
+
+- 時間：11/16（一）19:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Toronto Reference Library
+- 一句話說明：Spend an evening rethinking what leadership looks like when it's built on connection instead of hierarchy.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac6a131ebad22004543c8a1
+
+##### 42. 「Community Writing Workshop」
+
+- 時間：11/17（二）17:30–19:30
+- 費用：免費（圖書館活動原則）
+- 地點：實體（分館待確認）
+- 一句話說明：Experience the transformative power of writing in an inclusive space!
+- 連結：https://tpl.bibliocommons.com/v2/events/6a3d8305f0a66233671b0e3f
+- 備註：每週重複系列，本輪僅列首場
+
+##### 43. 「Canadian Council of the Blind Book Club」
+
+- 時間：11/18（三）10:00–12:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Deer Park
+- 一句話說明：This book club is facilitated by staff in partnership with the Canadian Council of the Blind, Toronto Visionaries…
+- 連結：https://tpl.bibliocommons.com/v2/events/6a3bfbeec52cdc3600ec8366
+
+##### 44. 「Book Club - Rescheduled to Wednesday, November 18」
+
+- 時間：11/18（三）14:00–15:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體（分館待確認）
+- 一句話說明：***PLEASE NOTE THE DATE CHANGE FROM TUESDAY, NOVEMBER 17 TO WEDNESDAY, NOVEMBER 18 Join us for a lively and fun…
+- 連結：https://tpl.bibliocommons.com/v2/events/6a31965e7550c8bf9f5dcde8
+
+##### 45. 「Cookbook Club」
+
+- 時間：11/18（三）14:00–15:00
+- 費用：免費（Free registration required）
+- 地點：實體，Malvern
+- 一句話說明：Attention, culinary enthusiasts!
+- 連結：https://tpl.bibliocommons.com/v2/events/6a970eac2dac6e0037234185
+
+##### 46. 「Resilience Reads: a climate neighbourhood reading party」
+
+- 時間：11/18（三）18:30–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Parkdale
+- 一句話說明：Join us to share the joy of reading, while building climate resilience knowledge.
+- 連結：https://tpl.bibliocommons.com/v2/events/69dd3dd5c1cf6f9a758518d2
+
+##### 47. 「Northern District Book Club—Evenings」
+
+- 時間：11/18（三）19:00–20:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體（分館待確認）
+- 一句話說明：Join us for a friendly, spirited discussion of a different book on the third Wednesday of each month.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a5f86437b79214226aa1376
+
+##### 48. 「Rachel Cusk: Life of M」
+
+- 時間：11/18（三）19:00–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Toronto Reference Library
+- 一句話說明：Critically acclaimed author Rachel Cusk shares her irresistible new novel.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a85b6d72cbfe80d71a4733b
+
+##### 49. 「LSP: Your New Home - Life After Canadian Permanent Residence」
+
+- 時間：11/19（四）19:15–20:15
+- 費用：免費（Free registration required）
+- 地點：實體，Eatonville
+- 一句話說明：Did you get your PR status recently?
+- 連結：https://tpl.bibliocommons.com/v2/events/6af22f739b955d531f7e4528
+
+##### 50. 「Creative Writing Club: Write Better Faster with Maaja Wentz」
 
 - 時間：11/20（五）18:00–19:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 4 位名額）
-- 地點：實體，Malvern 分館
-- 一句話說明：克服寫作瓶頸、建立寫作習慣的互動工作坊。
+- 費用：免費（Free registration required）
+- 地點：實體，Malvern
+- 一句話說明：Boost your productivity, overcome writing blocks, and finally finish the projects that matter most.
 - 連結：https://tpl.bibliocommons.com/v2/events/6ab144540fe10113c002e841
 
-##### 10. 「Meet the Winner of the 2026 Giller Prize」（新增）
+##### 51. 「Book Club - The Library Book」
 
-- 時間：11/18（三）18:00–19:00（標頭時間；簡介另寫「Doors open at 6:00pm. Event starts at 7:00pm.」，兩者不一致，以頁面原文為準）
-- 費用：免費（詳情頁明文「Free registration required.」；需報名，未顯示剩餘名額）
+- 時間：11/21（六）11:00–12:00
+- 費用：免費（Free registration required）
+- 地點：實體，Maryvale
+- 一句話說明：Join us as we discuss this award winning, non fiction book written by Susan Orlean that looks into the unsolved mystery…
+- 連結：https://tpl.bibliocommons.com/v2/events/6adce438de300e00451c88d5
+
+##### 52. 「Screenwriting for Beginners」
+
+- 時間：11/21（六）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Davenport
+- 一句話說明：Have an idea for a movie, but not sure how to write it?
+- 連結：https://tpl.bibliocommons.com/v2/events/6abbea8729c3d600332c6c2f
+
+##### 53. 「The SciFi and Fantasy Book Club」
+
+- 時間：11/21（六）14:30–16:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Lillian H. Smith
+- 一句話說明：Join us for the book club hosted by The Merril Collection of Science Fiction, Speculation & Fantasy.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a90953e6383850d1b245a45
+
+##### 54. 「Apple Devices for Beginners」
+
+- 時間：11/23（一）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Northern District
+- 一句話說明：In this class, you’ll learn the basics of using an Apple device.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ad26f5d96ec3a003adb0fe8
+
+##### 55. 「Computers for Beginners 3: Use Windows」
+
+- 時間：11/23（一）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，York Woods
+- 一句話說明：A class on essential basic Windows skills for absolute beginners with little computer experience.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae8d9849b955d531f7c74d3
+
+##### 56. 「Computers for Beginners 5: Use Windows」
+
+- 時間：11/23（一）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Agincourt
+- 一句話說明：A class on essential basic Windows skills for absolute beginners with little computer experience.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ad63effe06996003a848468
+
+##### 57. 「S. Walter Stewart Fiction Book Club」
+
+- 時間：11/23（一）19:00–20:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體，S. Walter Stewart
+- 一句話說明：Join us for a lively discussion in a friendly atmosphere each month.
+- 連結：https://tpl.bibliocommons.com/v2/events/69a5ea0e6724c63d00f63ed5
+
+##### 58. 「Computers for Beginners 5: Use Windows」
+
+- 時間：11/24（二）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Albert Campbell
+- 一句話說明：A class on essential basic Windows skills for absolute beginners with little computer experience.
+- 連結：https://tpl.bibliocommons.com/v2/events/6aa88b9b607483003826efcc
+
+##### 59. 「Google Sheets: An Introduction」
+
+- 時間：11/24（二）14:00–15:30
+- 費用：免費（Free registration required）
 - 地點：實體，Toronto Reference Library
-- 一句話說明：2026 年 Giller 獎得主見面會。
-- 連結：https://tpl.bibliocommons.com/v2/events/6a85b35736204e08fbb58141
+- 一句話說明：Learn how Google Sheets can be a useful free tool when you don't have access to Microsoft Excel.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ac535d829c3d600332e0e81
 
-##### 11. 「Jeff Chang: Bruce Lee and the Making of Asian America」（新增）
+##### 60. 「Book Club: Crazy Rich Asians」
+
+- 時間：11/24（二）15:00–16:00
+- 費用：免費（Free registration required）
+- 地點：實體，St. Clair/Silverthorn
+- 一句話說明：When Rachel Chu agrees to spend the summer in Singapore with her boyfriend, Nicholas Young, she envisions a humble…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae4bcab5ea4c386b3ebf794
+
+##### 61. 「Ethennonnhawahstihnen' Book Club」
+
+- 時間：11/24（二）18:30–19:30
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Ethennonnhawahstihnen'
+- 一句話說明：Join us for a lively and fun discussion about the selected book of the month at Ethennonnhawahstihnen' branch.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a6cc18374e3b8b75db66d7f
+
+##### 62. 「Jeff Chang: Bruce Lee and the Making of Asian America」
 
 - 時間：11/24（二）19:00–20:00
-- 費用：免費（詳情頁明文「Free registration required.」；需報名）
+- 費用：免費（Free registration required）
 - 地點：實體，Toronto Reference Library
-- 一句話說明：Jeff Chang 談李小龍與亞裔美國人的形成；同日 18:00–18:45 另有 Pre-Show：Bruce Lee fight choreography demonstration。
+- 一句話說明：TPL presents award-winning author Jeff Chang in conversation with Vinh Nguyen at the Toronto Reference Library's Appel…
 - 連結：https://tpl.bibliocommons.com/v2/events/6a85b7fa1401fd00606cea3c
 
-##### 12. 「Art of Darkness: Edgar Allan Poe's Life & Work」（沿用）
+##### 63. 「Leaside Non-Fiction Book Club」
 
-- 時間：12/4（五）19:00–20:00
-- 費用：免費（詳情頁明文「Free registration required」；需報名）
+- 時間：11/25（三）10:00–11:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Leaside
+- 一句話說明：Drop in and expand your mind with Leaside's monthly book club.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae22c27de300e00451d766c
+
+##### 64. 「2SLGBTQ+ Book Club」
+
+- 時間：11/25（三）18:30–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Parkdale
+- 一句話說明：Join us on the last Wednesday of every month for a warm and lively discussion of 2SLGBTQ+ books!
+- 連結：https://tpl.bibliocommons.com/v2/events/69446bd62c65973d001356bc
+
+##### 65. 「Resilience Reads: a climate neighbourhood reading party」
+
+- 時間：11/26（四）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：Join us to share the joy of reading, while building climate resilience knowledge.
+- 連結：https://tpl.bibliocommons.com/v2/events/69c980df81b67dfe32afc3a1
+
+##### 66. 「Alderwood Book Club: Clara at the Door With a Revolver」
+
+- 時間：11/26（四）19:00–20:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Alderwood
+- 一句話說明：In November we will be discussing the non-fiction book Clara at the Door With a Revolver by Carolyn Whitzman.
+- 連結：https://tpl.bibliocommons.com/v2/events/6adb9ff20b801373af90d0ac
+
+##### 67. 「Gerrard/Ashdale Book Club」
+
+- 時間：11/26（四）19:00–20:00
+- 費用：免費（圖書館活動原則）
+- 地點：實體（分館待確認）
+- 一句話說明：The Gerrard/Ashdale book club meets once a month to discuss a variety of books including fiction, nonfiction, and…
+- 連結：https://tpl.bibliocommons.com/v2/events/6aea1e239dbc2b002c93148d
+
+##### 68. 「North York Central Library Book Club」
+
+- 時間：11/26（四）19:00–20:15
+- 費用：免費（圖書館活動原則）
+- 地點：實體（分館待確認）
+- 一句話說明：Drop-in on the last Thursday of the month for a lively book discussion led by a librarian!
+- 連結：https://tpl.bibliocommons.com/v2/events/69f603ae596674bcd583e839
+
+##### 69. 「Market Research for Small Business」
+
+- 時間：11/27（五）14:00–15:30
+- 費用：免費（Free registration required）
 - 地點：實體，Toronto Reference Library
-- 一句話說明：愛倫·坡生平與作品講座。
-- 連結：https://tpl.bibliocommons.com/v2/events/6a85b6ff4c610f0038954f12
-
-##### 13. 「Sven Beckert: A Global History of Capitalism」（新增）
-
-- 時間：12/15（二）19:00–20:30
-- 費用：免費（詳情頁明文「Free registration required.」；需報名）
-- 地點：實體，Toronto Reference Library
-- 一句話說明：Sven Beckert 談資本主義的全球史。
-- 連結：https://tpl.bibliocommons.com/v2/events/6acfd30896ec3a003ada9007
+- 一句話說明：Learn how to do market research for your business plan using the various databases available to you, for free, with…
+- 連結：https://tpl.bibliocommons.com/v2/events/69de6e771e64afd01e692073
 
 #### 職涯發展
 
-##### 14. 「Turning Red Flags into Strengths: How to Answer Tough Interview Questions」（新增，今日）
+##### 70. 「Word Basics 3: Basic Resumes with Word」
 
-- 時間：11/12（四）17:00–18:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 47 位名額，報名截止 11/12 17:00）
+- 時間：11/13（五）18:00–19:30
+- 費用：免費（Free registration required）
+- 地點：實體，Malvern
+- 一句話說明：Practice your Microsoft Word skills while creating a simple resume.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a7e0367be148200298721cc
+
+##### 71. 「Word Basics 3: Basic Resumes with Word」
+
+- 時間：11/16（一）13:30–15:00
+- 費用：免費（Free registration required）
+- 地點：實體，Brentwood
+- 一句話說明：Practice your Microsoft Word skills while creating a simple resume.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ab7ce2cda318a10e636ebb6
+
+##### 72. 「Word Basics 3: Basic Resumes」
+
+- 時間：11/16（一）14:00–15:30
+- 費用：免費（Free registration required）
+- 地點：實體，Riverdale
+- 一句話說明：Practice your Microsoft Word skills while creating a simple resume.
+- 連結：https://tpl.bibliocommons.com/v2/events/6aa1ae8df9ed2e00384f537f
+
+##### 73. 「Entrepreneurship Mentorship Makes a Difference for All」
+
+- 時間：11/16（一）18:30–20:00
+- 費用：免費（Free registration required）
+- 地點：實體，Fort York
+- 一句話說明：This program is part of Fort York Library's Entrepreneur in Residence (EIR) service Whether you are starting a business…
+- 連結：https://tpl.bibliocommons.com/v2/events/6aaad6a2ab7a8e0037c241ef
+
+##### 74. 「The Art of DJ-ing」
+
+- 時間：11/19（四）16:30–18:30
+- 費用：免費（Free registration required）
+- 地點：實體（分館待確認）
+- 一句話說明：Meet Benjamin, Artist in the Library at the Downsview Branch, where you will learn the Art of Dj-ing.
+- 連結：https://tpl.bibliocommons.com/v2/events/6a7b70e3d033f1003e0aa7bb
+- 備註：每週重複系列，本輪僅列首場
+
+##### 75. 「Make Your Experience Make Sense」
+
+- 時間：11/20（五）14:00–15:00
+- 費用：免費（Free registration required）
 - 地點：線上
-- 一句話說明：面試難題回答技巧講座。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ab45d7fda318a10e63655ea
+- 一句話說明：Resumes, achievements and career storytelling Learn to describe accomplishments, communicate impact and tailor…
+- 連結：https://tpl.bibliocommons.com/v2/events/6abe87d2ebad22004542492a
 
-##### 15. 「The Career Confidence & Wellness Series: Rebounding from Rejection」（新增）
+##### 76. 「Word Basics 3: Basic Resumes with Word」
 
-- 時間：11/16（一）17:00–18:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 21 位名額）
+- 時間：11/23（一）13:00–14:30
+- 費用：免費（圖書館活動原則）
+- 地點：實體，Black Creek
+- 一句話說明：Practice your Microsoft Word skills while creating a simple resume.
+- 連結：https://tpl.bibliocommons.com/v2/events/6ae39c678389bd86bfa3d366
+
+##### 77. 「Everyday Courage, Everyday Resilience: Finding your resilient flow in times of change and complexity」
+
+- 時間：11/24（二）13:00–14:00
+- 費用：免費（Free registration required）
 - 地點：線上
-- 一句話說明：職涯自信與身心健康系列，談如何從被拒絕中恢復。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ab6cb6686d845003118c20c
+- 一句話說明：Join us for an interactive discussion with Career Coach in Residence Sangeetha Dikshit and guest speaker, Abirambika…
+- 連結：https://tpl.bibliocommons.com/v2/events/6ada32998a335b6ae5c9f5ad
 
-##### 16. 「Modern Careers: Unlocking New AI Career Paths」（沿用）
+##### 78. 「Create an Impactful Resume with ACCES Employment」
 
-- 時間：11/17（二）14:00–15:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 39 位名額）
-- 地點：線上
-- 一句話說明：職涯教練駐館講座，談 AI 帶來的新興職涯路徑。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ada329a198b996a80a897bb
+- 時間：11/24（二）14:00–15:00
+- 費用：免費（Free registration required）
+- 地點：實體，North York Central Library
+- 一句話說明：Employment experts will guide you through a step-by-step process on creating a resume that stands out and gets you…
+- 連結：https://tpl.bibliocommons.com/v2/events/6aba93ff9abb62002c6aac00
 
-##### 17. 「Job Search 101: Finding Opportunities That Fit You」（沿用）
+### Mississauga 圖書館
 
-- 時間：12/1（二）12:00–13:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 39 位名額）
-- 地點：線上
-- 一句話說明：求職入門講座，談如何找適合自己的機會。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ada3736f4d1423e2ce41e4c
+本週無符合活動。
 
-##### 18. 「Resume Development and Modern Job Search Techniques」（沿用）
+### London 公共圖書館（線上）
 
-- 時間：12/4（五）13:00–14:30
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 37 位名額）
-- 地點：實體，Woodside Square 分館
-- 一句話說明：履歷撰寫與現代求職技巧實務講座。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ac5142d29c3d600332e0473
-
-##### 19. 「From Interview Jitters to Interview Confidence: Navigating In-Person, Virtual and AI-Powered Interviews」（沿用）
-
-- 時間：12/14（一）18:30–19:30
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 78 位名額）
-- 地點：線上
-- 一句話說明：面試講座，涵蓋實體、視訊與 AI 輔助面試。
-- 連結：https://tpl.bibliocommons.com/v2/events/6aeb8cb35ea4c386b3ec9aa5
-
-#### 工程／建築
-
-##### 20. 「Shannon Kyles: What Our Buildings Say About Us」（沿用）
-
-- 時間：12/17（四）18:30–20:00
-- 費用：免費（詳情頁未顯示費用；需報名，查詢時尚有 33 位名額，簡介另寫 drop-ins also welcome）
-- 地點：實體，Bloor/Gladstone 分館
-- 一句話說明：建築作家談建築如何反映城市與居民的故事。
-- 連結：https://tpl.bibliocommons.com/v2/events/6ad7d1f59dbc2b002c8fec9d
-
-### Mississauga 圖書館（新增，本輪首次列入主清單）
-
-作者講座無新增（Susan Pimento 11/25 為退休理財主題不列；頁面明示其後暫無作者講座）；Lecture Me! 12 月場次尚未公布。以下皆為實體、Mississauga 各分館，免費（圖書館活動頁明示免費），Drop In、現場先到先得。
-
-#### 科技／創客設備（Hazel McCallion Central Library，Maker Tech Studio）
-
-- 「Laser Cutter Introduction」：11/12（四）19:00–20:00；11/21（六）10:00–11:00；12/5（六）10:00–11:00。雷射切割機入門。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/laser-cutter-introduction/163946?locale=en-US
-- 「Vinyl Printer Introduction」：11/19（四）19:00–20:00；12/12（六）10:00–11:00。乙烯基印刷機入門。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/vinyl-printer-introduction/163926?locale=en-US
-- 「3D Printer Introduction」：12/10（四）19:00–20:00，13 歲以上。3D 列印機入門。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/3d-printer-introduction/163955?locale=en-US
-
-#### 職涯發展（Hazel McCallion Central Library）
-
-- 「Job Hunting Resources」：11/24（二）19:00–20:30。求職資源講座。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/job-hunting-resources/163280?locale=en-US
-- 「One-on-One Resume Help」：11/16（一）16:00–19:00；12/21（一）16:00–19:00。18 歲以上，一對一履歷協助，名額有限。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/one-on-one-resume-help/164639?locale=en-US
-
-#### 寫作（系列活動）
-
-- 「Writing Club」（Mississauga Valley Library）：每週五 14:00–15:30，11/13、11/20、11/27、12/4、12/11、12/18。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/writing-club/163603?locale=en-US
-- 「Writing Club」（Streetsville Library）：每週四 18:30–19:30，11/12、11/19、11/26。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/writing-club/165105?locale=en-US
-- 「Writing Together by Writers Collective of Canada」（Central Library）：每週三 11:00–13:00，11/18、11/25、12/2。連結：https://ca.apm.activecommunities.com/activemississauga/Activity_Search/writing-together-by-writers-collective-of-canada/166774?locale=en-US
-
-#### 閱讀（讀書會系列，各分館循環）
-
-- 「Book Club」：11/12–12/17 共 19 場（Erin Meadows、Lorne Park、Port Credit、Woodlands、Meadowvale、Hazel McCallion Central、Streetsville、Mississauga Valley、Sheridan、Clarkson、Lakeview、Frank McKechnie）；「Book Club: Let's Talk Books」：11/18 Churchill Meadows、11/26 Lorne Park、12/18 Meadowvale；「Book Club: Read & Chat」：12/9 Streetsville。官方搜尋清單：https://anc.ca.apm.activecommunities.com/activemississauga/activity/search?onlineSiteId=0&activity_select_param=2&activity_department_ids=5&activity_other_category_ids=3&activity_other_category_ids=9&activity_keyword=Book%20Club&viewMode=list
-
-### London 公共圖書館（線上）：本週無符合活動
-
-whats-on 頁現已重新導向至 https://programs.lpl.ca/ 並可正常渲染；日期範圍設為 2026-11-12 至 2026-12-24，站內關鍵字搜尋「Virtual」「Zoom」「Webinar」皆 0 結果；Eventbrite 交叉核對亦未見窗期內線上場次（唯一線上活動為 9/24 的 English Reading Group，已過期）。
+本週無符合線上活動。
 
 ### 圖書館已排除（僅列備查）
 
-- 「Google AI Essentials: Online Learning Circle」（線上，4 週系列；詳情頁明文免費、需 TPL 借書證）：11/12 場次報名已關閉；實體 Forest Hill 場次 12/4、12/11、12/18 各尚有 25 位名額（清單層級確認，未逐一開詳情頁）。
-- 「Google Prompting Essentials: Online Learning Circle」（線上，循環系列）：11/12、11/13、11/19、11/20、11/27 場次報名已關閉；11/26、12/1、12/3、12/8、12/10、12/15、12/17 各尚有 21–28 位名額（清單層級確認，未逐一開詳情頁）。
-- 「What is Artificial Intelligence?」新場次（清單層級確認，未逐一開詳情頁）：11/13 Scarborough Civic Centre、11/19 Deer Park（3 位）、12/1 Yorkville、12/1 Highland Creek（11/17 9:00 開放報名）、12/5 Forest Hill（頁面時間疑誤植為 2:00am）；S. Walter Stewart 11/30 場次已滿。
-- 「AI for Job Hunting: Build Your Own System」（11/17，North York Central Library）：已滿額。連結：https://tpl.bibliocommons.com/v2/events/6a9b51a9aafa61002961b2a1
-- 已滿額（本次確認）：「Learning Things You Love with AI」11/19 與 12/3、「Get Things Done with AI」11/23、「Vibe Coding」11/25、11/26、12/7、「Prompting with Generative AI」11/26、「Public AI: What Should We Build Together?」11/28、「AI for Seniors」12/10、「AI for Small Business」11/30、「Run Your One-Person Business with AI」12/1、「Book Launch: Stories That Move You」11/14、Will Ferguson 作者講座 11/14、Creative Writing Club（Cliffcrest）11/12、WordPress 系列四場、「Wellness Connections Part 1」11/13。
-- 「Author Talks with Susan Pimento」（11/25，線上，Mississauga）：退休理財主題，依排除規則不列。
-- 「Mississauga Comic Expo」（11/6–7）：純流行文化展覽，不列。
-- 「Orhan Pamuk 作者講座」（11/20）：已取消。
-- 「STEMoirs: A Biography Book Club」（11/12）：已取消。
-- 「Culture and Technology Book Club」12/14 場次：已取消。
-- 另有清單層級看到、未逐一開詳情頁故未列入者：作者講座 Jody Wilson-Raybould 11/16、Rachel Cusk 11/18、A.D. Sui 12/7、Heather Babcock 12/16；職涯系列 Overcoming Imposter Syndrome 11/19、Exploring Your Career Values 11/20、Everyday Courage 11/24、LinkedIn for Beginners 12/9；「Who Should Own AI? Building Public AI」11/21、「AI for Us: Shaping AI in Toronto」12/5、「Peek Inside an AI Assistant」12/15、「AI At Home: No Cloud, No Account」12/16、「How Do AIs "Think"?」12/17、「AI, Our Community and What Happens Next」12/19；「What is the Universe Made of?」11/18（科學）；「Dystopia Nonfiction Book Club: AI Snake Oil」11/16。
+- 「Coding with Python」（11/13）：已滿額，僅可候補。
+- 「Wellness Connections: Workshops for Mental Health & Emotional Wellness Part 1」（11/13）：已滿額，僅可候補。
+- 「Introduction to Machine Embroidery」（11/14）：已滿額，僅可候補。
+- 「The Art and Craft of Writing Murder Mysteries with Will Ferguson」（11/14）：已滿額，僅可候補。
+- 「**FULL** Book Club」（11/16）：已滿額，僅可候補。
+- 「Coding with Python I」（11/16）：已滿額，僅可候補。
+- 「Astronomy and the Cosmos: Galaxy Formation」（11/16）：已滿額，僅可候補。
+- 「Google AI Essentials: In Person Learning Circle」（11/17）：已滿額，僅可候補。
+- 「Data Analytics Essentials Learning Circle」（11/17）：已滿額，僅可候補。
+- 「Python Essentials 1 and 2 Learning Circle」（11/17）：已滿額，僅可候補。
+- 「Excel Basics 2: Do More with your Data」（11/17）：已滿額，僅可候補。
+- 「AI for Job Hunting: Build Your Own System」（11/17）：已滿額，僅可候補。
+- 「Google AI Essentials: In Person Learning Circle」（11/17）：已滿額，僅可候補。
+- 「Bridging Minds: Supporting Mental Health in the Early Years (0–5) — Small Actions, Big Impact」（11/18）：已滿額，僅可候補。
+- 「Google AI Essentials: Online Learning Circle」（11/19）：已滿額，僅可候補。
+- 「Enigmatic Elders Mystery Book Club」（11/19）：已滿額，僅可候補。
+- 「Learning Things You Love with AI」（11/19）：已滿額，僅可候補。
+- 「Coding with Python II」（11/19）：已滿額，僅可候補。
+- 「Data Analytics Essentials Online Learning Circle」（11/19）：已滿額，僅可候補。
+- 「Wellness Connections: Workshops for Mental Health & Emotional Wellness Part 1」（11/20）：已滿額，僅可候補。
+- 「Computers for Beginners 5: Use Windows」（11/21）：已滿額，僅可候補。
+- 「Who Should Own AI? Building Public AI」（11/21）：已滿額，僅可候補。
+- 「Get Things Done with AI: Build Your Own Productivity System」（11/23）：已滿額，僅可候補。
+- 「Creative Writing Workshop Group」（11/23）：已滿額，僅可候補。
+- 「Google AI Essentials: In Person Learning Circle」（11/24）：已滿額，僅可候補。
+- 「Data Analytics Essentials Learning Circle」（11/24）：已滿額，僅可候補。
+- 「Python Essentials 1 and 2 Learning Circle」（11/24）：已滿額，僅可候補。
+- 「Introduction to Machine Embroidery」（11/24）：已滿額，僅可候補。
+- 「Google AI Essentials: In Person Learning Circle」（11/24）：已滿額，僅可候補。
+- 「Vibe Coding: Make Your Own Interactive Story with AI」（11/25）：已滿額，僅可候補。
+- 「Creative Writing」（11/26）：已滿額，僅可候補。
+- 「Google AI Essentials: Online Learning Circle」（11/26）：已滿額，僅可候補。
+- 「The Occult Persuasion and the Anarchist's Solution: From Idea to Publication (Writing Workshop)」（11/26）：已滿額，僅可候補。
+- 「Prompting with Generative AI」（11/26）：已滿額，僅可候補。
+- 「Data Analytics Essentials Online Learning Circle」（11/26）：已滿額，僅可候補。
+- 「Writers Collective of Canada (WCC): Community Writing Workshop」（11/26）：已滿額，僅可候補。
+- 「Vibe Coding: Personal Library App」（11/26）：已滿額，僅可候補。
+- 「Wellness Connections: Workshops for Mental Health & Emotional Wellness Part 2」（11/27）：已滿額，僅可候補。
+- 「Author Talks with Susan Pimento」（11/25）：退休理財主題，依排除規則不列。
 
 ### 補充資源（非排定活動）
 
@@ -342,35 +934,88 @@ whats-on 頁現已重新導向至 https://programs.lpl.ca/ 並可正常渲染；
 - 報名連結：https://oacett.org/professional-development/cpd-workshops-webinars（Self Study Courses 區）
 - 為什麼相關：中低。非 MedTech 專屬，但「讀標準」是品管與醫材法規工作的通用能力；零成本自學。
 
-#### 2. OACETT 自學區其他免費項目（本輪逐項核對後新增列入備查）
+### ASQ 會員行事曆深度掃描（GitHub Actions 本輪直掃）
 
-- 「Fiber & the Internet」（TelecomTRAIN，FREE，用 code STARTNOW）、CSA「Modular Construction Projects – Delivery, Certification, Approvals Processes」（FREE 90-day access）、CSA「NISI S500: Thermosyphon Foundations for Buildings in Permafrost Regions」（FREE 90-day access）。皆為自學課程、非排定活動，且主題（光纖／模組化建築／永凍土基礎）與 MedTech 低相關，僅列備查。
-- 連結：https://oacett.org/professional-development/cpd-workshops-webinars（Self Study Courses 區）
+以瀏覽器任務完成 my.asq.org/events/calendar 全量掃描：全程免登入（僅頁首 Log in 連結，未出現登入牆）；最終 94 筆刊登；主題相關去重後 85 場逐場開啟詳情頁核價——5 場確認免費、9 場付費、32 場未標示價格（未標示者不列入免費清單，見查證限制）。確認免費並列入上方清單者：第 1–5 項。以下為同次掃描中確認付費或未標示價格的代表性項目，僅列備查：
 
-#### 3. OSPE 隨選「An Introduction to AI」（降級為備註）
-
-- 原連結 https://members.ospe.on.ca/event/an-introduction-to-ai/ 已回 404。新位置：https://learn.ospe.on.ca/Play?pId=65744aba-8572-4d95-9329-78f701275298，公開價格 $59.00，會員價頁面未標示、需登入確認。
-- 本輪無法再驗證「會員 $0」主張，故不再列為免費資源。Rene 登入 OSPE 後若確認會員免費，可再列回。
-
-### ASQ 會員行事曆深度掃描（2026-11-12 Muse 直掃）
-
-2026-11-12 以瀏覽器完成 my.asq.org/events/calendar 全量掃描：全程免登入（僅頁首 Log in 連結，未出現登入牆）；最終 130 條刊登（含重複列出；上輪 10-22 為 154 筆、11-05 為 143 筆）；主題相關去重後 34 場逐場開啟詳情頁核價——7 場確認免費、5 場付費、22 場未標示價格（未標示者不列入免費清單，見查證限制）。確認免費並列入上方清單者：第 1–7 項。以下為同次掃描中確認付費或未標示價格的代表性項目，僅列備查：
-
-- 確認付費：「Beyond the Clinical Trial: Using Real-World Data Across the Device Lifecycle」（11/18，$25；Medical Device Division）、「CERTIFIED QUALITY INSPECTOR Certification Preparation」（12/1 起，會員 $624／定價 $724）、「Engaging Leaders in the Lean Transformation」（12/3，Ottawa 實體，會員 $20／非會員 $30）、「ASQ Certified Six Sigma Black Belt (CSSBB) In Person South Florida」（12/15–17，Davie, FL 實體，會員 $895）、「MQD: Mastering Metrology Webinar Series 2026」（#6 為 12/16，$200／場，$1,200 全八場）。
-- 價格未標示、無法確認免費（故不列入；其中最相關者）：「November Joint Section Meeting - ISO 9001:2026」（11/12）、「Composure by Design」（11/12，Medical Device Division）、「What's New in ISO 9001?」（11/13，Audit Division）、「4th Quarter Webinar - A LEAN Six Sigma Case Study」（11/13）、「Effective Internal Quality Auditing」（11/17）、「Quality 4.0: Advancing Process and Product Improvement」（11/17）、「Value Stream Mapping」（11/17）、「AI Use in Highly Regulated Industries」（11/18）、「The Future of Quality is Now: Quality 4.0 to 5.0」（11/18）、「Quality Government Day 2026」（11/19）、「Artificial Intelligence in Quality Management」（11/19，Worcester，註明不需註冊）、「QUALITY METRICS THAT MATTER」（11/19，Houston）、「Engineering Character」（11/19，Rhode Island 實體）、「Designing Visual Inspection Standards」（11/24）、「Employing the Kano Model」（12/1）、「AI in Quality - Beyond the Hype」（12/1，Baltimore）、「Innovations within AI, Data, and the Supply Chain」（12/3）、「Quality in the Era of AI Agents」（12/8，Minnesota）、「Networking Fundamentals for Quality Professionals」（12/8）、「Turning Quality into Financial Intelligence」（12/9）、「Auditing Based on Risk Assessment」（12/10）、「Supplier Quality KPIs That Matter」（12/18，不需註冊）。
-- 免費但實體在外州／外省（不符多倫多／安大略實體條件，不列入）：「Quality Management Initiatives at ETC Middleton」（11/5，Cost: Free，實體 Middleton, WI）等。
+- 價格未標示、無法確認免費（故不列入；其中最相關者）：
+  - 「ASQ Southeast Florida Section - THE QUALITY ROUNDUP NEWSLETTER WITH EVENTS」（11/13）
+  - 「November Webinar: "What's New in ISO 9001? What Changed, Why It Matters, and What's Next"」（11/13）
+  - 「4th Quarter Webinar - A LEAN Six Sigma Case Study by Scott Sterbenz」（11/13）
+  - 「ASQ SFV Event: San Fernando Valley Section Quality & Coffee」（11/14）
+  - 「Effective Internal Quality Auditing Lunch and Learn」（11/17）
+  - 「ASQ Illiana Section November 2026 Webinar: "Quality 4.0: Advancing Process and Product Improvement”」（11/17）
+  - 「AI Use in Highly Regulated Industries」（11/18）
+  - 「The Future of Quality is Now: Quality 4.0 to 5.0 -From Digital Intelligence to Human-Centric Excelle」（11/18）
+  - 「Quality Government Day 2026 -- The Unfinished Work: The Future of Quality in American Government」（11/19）
+  - 「Artificial Inteligence in Quality Management」（11/19）
+  - 「CSD November 2026 Coffee / Beverage Talk - Contractual Levers for Quality Assurance」（11/19）
+  - 「Engineering Character: Six Dials to Build Better Leaders」（11/19）
+  - 「Zurn Elkay Tour」（11/19）
+  - 「QUALITY METRICS THAT MATTER: ALIGNING KPIs WITH STRATEGY AND RESULTS」（11/19）
+  - 「LV ASQ March IN-PERSON MEETING - THURSDAY, November 19th, Delizioso Italian Grill, 6:30PM EST」（11/19）
+  - 「🚀 IT’S OFFICIAL — THE ASQ PUERTO RICO QUALITY CONFERENCE 2026 IS LIVE! 🎉」（11/20）
+  - 另有 16 場主題相關活動詳情頁未標示價格，完整清單見本輪 run log。
 
 ## 已排除（僅列備查，不計入免費）
 
-- OSPE（本輪 REST API＋詳情頁核價確認）：「Risk, Operational Readiness (OR) & Monte Carlo Simulations」（11/24–25，會員 $50／非會員 $90）——風險工程主題但付費；「2026 Ontario Professional Engineers Awards Gala」（11/13，$350）——社交但付費；「Prep Course for the National Professional Practice Exam – December」（12/2 起，會員 $350）——NPPE 備考但付費（本輪 API 回傳未見該場次，維持上輪備查）；「CBA Workshop: Polishing Your CBA Submission」（11/5，會員 $350）——P.Eng 相關但付費（同上，API 回傳未見）；「PEO Bringing Engineering Practice to AI Systems」（10/29，$25 至 $125）——已舉行；「PEO The Diagnosis Before the Design」（11/3，$25 至 $125）——已舉行。
-- OSPE 會員免費但主題不符：「Designing for the Future: Using Climate Information to Support Resilient Infrastructure」（11/19，會員 $0.00 待登入確認）——氣候韌性基礎設施；「Can Building Homes Cut Emissions?」（11/5，會員 $0.00 待登入確認）——住宅密度與交通排碳，已舉行；「Engineering Communication: From Expertise to Influence」（11/17–12/8，Sprint 1 會員 $0，Sprint 2–4 各 $79，bundle $159）——溝通課程。
-- OACETT：「AI - The Mechanics of Prompting and Building Context」（11/4，會員 $20＋HST＋費用）——AI 主題但付費，已舉行；「Reliable Outputs from AI」（11/25，會員 $20＋HST＋費用）——AI 主題但付費；「From AI Assistant to Agent」（12/9，$20 起）——付費；「AI Day with Toyota & LEAN White Belt」（12/2，會員 $120）——付費；「Control Systems」（11/25–26，$1,165.50）——付費；「CAPM 備考」（11/28–12/12，會員 $349）——付費。新增付費：「5-Part Lunch Webinar Series: Confident Communication for Quiet Technical Professionals」（9/29 起，$20／場或 $50 全五場）、「Understanding the Impacts of Wildfires on Drinking Water Wells」（12/9，$30＋HST）、「New and Emerging Technology for Extending Pavement Life」（11/12，$67.50＋HST）。與 C.Tech. 技術報告直接相關但付費：「Technology Report Writing Seminar: Crash Course」（12/8，$150＋HST；11/10 場次已不在頁面；頁面時間欄顯示 "06:00 pm - 06:00 pm"，疑為刊登錯誤）、「Technology Report Writing Seminar: Two-day course」（11/28–29，$375＋HST）。免費但不相關：10/29「FREE MemberPerks Webinar: Discover Your Member Savings」（會員福利介紹）；其餘全為土木／營造／水務付費課程。
-- ASQ（本輪行事曆全量掃描逐字核價）：「Beyond the Clinical Trial: Using Real-World Data Across the Device Lifecycle」（11/18，$25）——醫材主題但付費；「CERTIFIED QUALITY INSPECTOR Certification Preparation」（12/1 起，會員 $624）；「Engaging Leaders in the Lean Transformation」（12/3，Ottawa 實體，會員 $20）；「ASQ Certified Six Sigma Black Belt (CSSBB) In Person South Florida」（12/15–17，會員 $895）；「MQD: Mastering Metrology Webinar Series 2026」（#6 為 12/16，$200／場）。免費但實體在外州／外省：「Quality Management Initiatives at ETC Middleton」（11/5，Middleton, WI）等。
-- CTTAM：領導力課程 Level 1（11/6，已結束）、Level 2（11/20，Winnipeg 實體，$210／$250，報名截止 11/13），皆付費。
+- 「ASQ Southeast Florida Section - THE QUALITY ROUNDUP NEWSLETTER WITH EVENTS」（11/13，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Construction Quality Manager Course-live virtual training is coming」（11/13，$600）——付費。
+- 「MQD: Mastering Metrology Webinar Series 2026」（11/13，$200）——付費。
+- 「November Webinar: "What's New in ISO 9001? What Changed, Why It Matters, and What's Next"」（11/13，未標示）——詳情頁未標價，依規則不列為免費。
+- 「4th Quarter Webinar - A LEAN Six Sigma Case Study by Scott Sterbenz」（11/13，未標示）——詳情頁未標價，依規則不列為免費。
+- 「ASQ SFV Event: San Fernando Valley Section Quality & Coffee」（11/14，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Effective Internal Quality Auditing Lunch and Learn」（11/17，未標示）——詳情頁未標價，依規則不列為免費。
+- 「ASQ SFV Section Event: Quality in Action: Insights from LA Metro's Major Projects」（11/17，$5）——付費。
+- 「ASQ Illiana Section November 2026 Webinar: "Quality 4.0: Advancing Process and Product Improvement”」（11/17，未標示）——詳情頁未標價，依規則不列為免費。
+- 「AI Use in Highly Regulated Industries」（11/18，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Beyond the Clinical Trial: Using Real-World Data Across the Device Lifecycle and Vetting the Vendors」（11/18，$25）——付費。
+- 「The Future of Quality is Now: Quality 4.0 to 5.0 -From Digital Intelligence to Human-Centric Excelle」（11/18，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Quality Government Day 2026 -- The Unfinished Work: The Future of Quality in American Government」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「November 19, 2026 ASQLEX live webcast with Susan Gorveatte, Seven Secrets to Rocking the Audit Stage」（11/19，$50）——付費。
+- 「Artificial Inteligence in Quality Management」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「CSD November 2026 Coffee / Beverage Talk - Contractual Levers for Quality Assurance」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Engineering Character: Six Dials to Build Better Leaders」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Zurn Elkay Tour」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「QUALITY METRICS THAT MATTER: ALIGNING KPIs WITH STRATEGY AND RESULTS」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「LV ASQ March IN-PERSON MEETING - THURSDAY, November 19th, Delizioso Italian Grill, 6:30PM EST」（11/19，未標示）——詳情頁未標價，依規則不列為免費。
+- 「🚀 IT’S OFFICIAL — THE ASQ PUERTO RICO QUALITY CONFERENCE 2026 IS LIVE! 🎉」（11/20，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Designing Visual Inspection Standards That Operators Can Apply Consistently」（11/24，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Hawaii Section Meeting Data, Story, Relationship」（12/01，未標示）——詳情頁未標價，依規則不列為免費。
+- 「CERTIFIED QUALITY INSPECTOR Certification Preparation – Starts December 1, 2026」（11/13，$624）——付費。
+- 「ASQ Baltimore 0502 - Registration Open for Dec 1st Member Meeting: AI in Quality - Beyond the Hype」（12/01，未標示）——詳情頁未標價，依規則不列為免費。
+- 「QXCON ASQ SOUTHEAST FLORIDA QUALITY CONFERENCE- THE HUMAN SIDE OF QUALITY」（12/03，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Engaging Leaders in the Lean Transformation」（12/03，$20）——付費。
+- 「Innovations within AI, Data, and the Supply Chain」（12/03，未標示）——詳情頁未標價，依規則不列為免費。
+- 「MN ASQ - Program Meeting - December 2026 - Quality in the Era of AI Agents」（12/08，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Networking Fundamentals for Quality Professionals」（12/08，未標示）——詳情頁未標價，依規則不列為免費。
+- 「December Webinar-Turning Quality into Financial Intelligence with Husam Al-Dossary and Huda Aldabal」（12/09，未標示）——詳情頁未標價，依規則不列為免費。
+- 「12/9/26 ASQ 0511 Section Leadership Committee (SLC) Meeting (0.1 RU)」（12/09，未標示）——詳情頁未標價，依規則不列為免費。
+- 「December Webinar: "Auditing Based on Risk Assessment"」（12/10，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Education Division All Member Call」（12/10，未標示）——詳情頁未標價，依規則不列為免費。
+- 「ASQ Raleigh Special Interest Group Meeting -- December 10, 2026 (and reminder of Nov 12 meeting!)」（12/10，未標示）——詳情頁未標價，依規則不列為免費。
+- 「ASQ Certified Six Sigma Black Belt (CSSBB) In Person South Florida (Dec 15-17th, 2026)」（11/13，$100）——付費。
+- 「Building Trust, Communication, and Respect at Work: Enhance Your Multi-Generational Culture」（12/15，未標示）——詳情頁未標價，依規則不列為免費。
+- 「CSD December 2026 Coffee / Beverage Talk - Supplier Quality KPIs That Matter」（12/18，未標示）——詳情頁未標價，依規則不列為免費。
+- 「2027 CQSDI - Innovate with Purpose: Deliver Quality Without Compromise」（11/13，$595）——付費。
+- 「Certified Supplier Quality Prof. (CSQP) Knowledge Ref. Course March-2027」（11/13，未標示）——詳情頁未標價，依規則不列為免費。
+- 「SAVE THE DATE - ASQ Audit Division Conference 2027」（11/13，未標示）——詳情頁未標價，依規則不列為免費。
+- 「Reliable Outputs from AI」（11/25，$20）——付費。
+- 「From AI Assistant to Agent」（12/09，$20）——付費。
+- 「Fundamentals of Leadership and Management」（11/16，$1521.00）——付費。
+- 「Control Systems for Electrical and Mechanical Engineers」（11/25，$1165.50）——付費。
+- 「PMI Authorized CAPM® Exam Prep Course」（11/28，$349）——付費。
+- 「AI Day with Toyota: Tour, Train, Transform & LEAN White Belt Certification」（12/02，$120）——付費。
+- 「Technology Report Writing Seminar: Two-day course」（11/28，$375）——付費。
+- 「Technology Report Writing Seminar: Crash Course」（12/08，$150）——付費。
+- 「Risk, Operational Readiness (OR) & Monte Carlo Simulations」（11/24，$50）——付費。
+- 「PEO Essential Tools for Becoming a Transformative Leader」（12/03，$25）——付費。
+- 「PEO Professional Practice Compliance in Small Engineering Firms: From Obligations to Operational Reality」（12/08，$25）——付費。
+- 「CBA Workshop: Crafting Your CBA Stories」（12/15，$350）——付費。
 
 ## CTTAM：本週無新活動
 
-cttam.com 公開網站無活動公告；課程頁僅領導力課 Level 2（11/20，Winnipeg 實體，$210／$250）。該協會活動多半直接用 email 通知會員，公開網站更新慢。
+cttam.com 公開網站無活動公告；課程頁僅領導力課（付費）。該協會活動多半直接用 email 通知會員，公開網站更新慢。
 
 ## 已報名
 
@@ -383,11 +1028,17 @@ cttam.com 公開網站無活動公告；課程頁僅領導力課 Level 2（11/20
 
 ## 查證限制
 
-- Claude 管線：本輪報告新鮮度檢查失敗（最新報告 2026-10-22，21 天前），故由 Muse 直接掃描全部來源；已於 association-events-scan issue #1 留言告知。**連續第三輪異常**（10-29、11-05、11-12）。asq.org/conferences 未覆蓋（上輪 Claude 報告稱被 Cloudflare 403 擋下；本輪未重試）。
-- ASQ 會員活動行事曆在 https://my.asq.org/events/calendar，本輪已驗證不需登入即可瀏覽（最終 130 條；上輪 143 筆）；報名才需登入（Rene 自行報名）。行事曆清單本身不顯示價格，本輪主題相關去重後 34 場已逐場開詳情頁核價：7 場有逐字價格確認免費、5 場付費、22 場未標示價格——未標示者一律不列入免費清單。myportal.asq.org 自動登入在 2026-10-01 與 2026-10-16 兩次嘗試皆失敗（同一驗證錯誤；表單從未送出，與密碼無關），掃描不嘗試登入。
-- OSPE 部分活動頁未註明時區（AMR、Human Risk Management 等），時間以頁面標示為準，報名前請以官網為準；標示「Please log in to see Member pricing」的會員免費主張需 Rene 登入購物車確認。OSPE REST API 本輪回傳僅 4 場（AMR、OPEA Gala、Engineering Communication、Designing for the Future），Human Risk Management 12/3、Risk/Monte Carlo 11/24–25、PE300、NPPE 備考、CBA Workshop 皆未出現在 API 回傳範圍內，已改以詳情頁／搜尋逐一核對；未經 API 公開的場次可能遺漏；PE300 11 月場次尚未刊登，僅能以每月規律推算，不列為已確認。
+- asq.org/conferences 回 403（Cloudflare），本輪未覆蓋
+- CTTAM https://cttam.com/ 抓取失敗：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- CTTAM https://cttam.com/event 抓取失敗：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- CTTAM https://cttam.com/archives/category/news 抓取失敗：('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+- TPL 活動清單已達頁數上限（90 頁），12 月下旬場次可能未完全覆蓋
+- LPL 線上場：頁面已渲染但未見 Virtual／Zoom／Online 字樣，本輪無符合線上活動
+- ASQ 會員活動行事曆在 https://my.asq.org/events/calendar，本輪已驗證不需登入即可瀏覽；報名才需登入（Rene 自行報名）。行事曆清單本身不顯示價格，本輪主題相關活動已逐場開詳情頁核價：未標示者一律不列入免費清單。myportal.asq.org 自動登入在 2026-10-01 與 2026-10-16 兩次嘗試皆失敗（同一驗證錯誤；表單從未送出，與密碼無關），掃描不嘗試登入。
+- asq.org/conferences 未覆蓋（Cloudflare 403；每週重試，失敗即註明）。
+- OSPE 部分活動頁未註明時區，時間以頁面標示為準，報名前請以官網為準；標示「Please log in to see Member pricing」的會員免費主張需 Rene 登入購物車確認。OSPE REST API 回傳可能截斷，已以活動清單頁交叉核對。
 - OACETT 個別課程報名需登入會員 Portal；活動頁未標示時區，時間以美東推定，報名時以官網為準。
 - CPD：OACETT 三年週期需 30 小時（Active 至少 15、Passive 最多 15），每項活動至少 1 小時；即時 webinar（有即時講者、1 小時以上）屬 Active。ASQ CSSGB 為終身證書，不需 RU。
-- 圖書館：TPL 活動清單僅能依篩選逐頁瀏覽，讀書會篩選共 364 筆未能全數瀏覽，本報告讀書會僅為代表性樣本；AI／作者講座／職涯篩選已按日期翻至 12 月，但未能逐一打開每一筆詳情頁（例如 Jody Wilson-Raybould 11/16、Rachel Cusk 11/18、Heather Babcock 12/16、Overcoming Imposter Syndrome 11/19、Who Should Own AI 11/21、AI for Us 12/5 等僅在清單層級看到，未列入）。Mississauga 活動總頁舊網址 https://www.mississauga.ca/services-and-programs/library/programs-and-events/ 已回傳 404，現行活動頁為 https://www.mississauga.ca/library/programs/；Bibliocommons events 功能已停用（403），改走 Active Mississauga 活動頁核對。LPL whats-on 現已重新導向至 https://programs.lpl.ca/ 並可正常渲染，本輪關鍵字搜尋 Virtual／Zoom／Webinar 皆 0 結果，Eventbrite 交叉核對未見線上場次。TPL 報名需 TPL 帳號，未代為報名；名額數字為 2026-11-12 查詢當下。
-- 各協會行事曆為動態內容，2026-11-12 之後新增的活動未包含在內。
-- 報告位置：本報告存放於 goal 工作區（原 ~/workspace/your_files/association-events.md 為 2026-10-16 版，不再更新）。
+- 圖書館：TPL 活動清單逐頁爬取未來 6 週全部場次（每週重複系列僅列首場）；Mississauga 一般活動（ActiveNet）與 LPL 線上場為 JS 渲染頁面，以 Playwright 渲染抓取，失敗時如實註明。TPL 報名需 TPL 帳號，未代為報名；名額數字為查詢當下。
+- 各協會行事曆為動態內容，掃描日之後新增的活動未包含在內。
+- 報告位置：本報告存放於 repo reports/latest.md（每週覆寫）；看門狗另存一份於 Muse 工作區。
